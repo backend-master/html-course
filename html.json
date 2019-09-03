@@ -7,14 +7,14 @@
   "section": [
     {
       "index": 1,
-      "title": "Beginning HTML",
-      "total": 13,
+      "title": "Links and Multimedia",
+      "total": 21,
       "data": [
         {
           "index": 1,
           "type": 0,
-          "content": "Diluar sana lebih dari Miliaran Website yang ada pada internet. Mulai dari yang berlayanan besar seperti facebook sampai dengan website yang simple seperti blog, komunitas dan forum untuk berdiskusi.",
-          "image": "./assets/section-1-website.png",
+          "content": "Untuk lebih jelas lagi, file yang ditulis dengan HTML adalah webpages. Ketika file file tersebut bergabung menjadi satu maka itu disebut dengan website",
+          "image": "./assets/section-3-file.png",
           "code": [],
           "output": [
             {
@@ -34,14 +34,9 @@
         {
           "index": 2,
           "type": 0,
-          "content": "Tapi tidak peduli sebagaimana kompleks atau simplenya sebuah website, kebanyakan website ditulis dengan HTML. \nAyo kita intip behind the scene dari website ini",
-          "code": [
-            "<html>",
-            "<body>",
-            "Selamat Datang Temanku !",
-            "</body>",
-            "</html>"
-          ],
+          "content": "Dan itu adalah link atau hyperlinks. Mereka yang menggabungkan webpage dan menghubungkannya menjadi website",
+          "image": "./assets/section-3-chain.png",
+          "code": [],
           "output": [
             {
               "type": "script.js",
@@ -49,10 +44,10 @@
             },
             {
               "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
+              "text": ""
             }
           ],
-          "note": "Begitulah! Kode kode diantar \"Selamat Datang Temanku !\" sudah bisa menjadi website",
+          "note": "Okee Lanjut -->",
           "question": "",
           "choice": [],
           "answer": ""
@@ -60,7 +55,8 @@
         {
           "index": 3,
           "type": 0,
-          "content": "HTML adalah kepanjangan dari Hypertext Markup Language. Dengan kode HTML, kita dapat memberitahukan pada web browser bagaiamna caranya untuk menampilkan website.",
+          "content": "Jadi, ketimbang harus mengetik halaman web atau alamat situs web ke dalam browser web, link dapat membawa kamu ke sana dengan satu klik sederhana",
+          "image": "./assets/section-3-webpage.png",
           "code": [],
           "output": [
             {
@@ -79,9 +75,16 @@
         },
         {
           "index": 4,
-          "type": 1,
-          "content": "Web Browser seperti Chrome, Safari, Firefox dll tahu bagaimana untuk membaca kode HTML dan menampilkan website seperti pada kode. \nTekan pada \"Halo Dunia\" untuk menampilkan pada website",
-          "code": ["<html>", "<body>", "__", "</body>", "</html>"],
+          "type": 0,
+          "content": "Tag link sangat singkat dan simple: <a>. Diantara tag link tersebut kita hanya perlu menuliskan sesuatu agar dapat menjadi link. ",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__ Ayo pergi kesana __",
+            "</body>",
+            "</html>"
+          ],
           "output": [
             {
               "type": "script.js",
@@ -89,48 +92,27 @@
             },
             {
               "type": "browser",
-              "text": "<html><body>Halo Dunia</body></html>"
+              "text": "<!doctype html><html><body>__ Ayo pergi kesana __</body></html>"
             }
           ],
-          "note": "Nice! Itu adalah kode untuk menampikan kata Halo Dunia pada web browser",
+          "note": "Nice! Mudah bukan ? Web Browser akan menampilkan apapun diantara tag <a> sebagai link",
           "question": "Tanda __ dapat diganti dengan ?",
           "choice": [
             {
               "index": 1,
-              "text": "Halo Dunia"
+              "text": "<a>"
+            },
+            {
+              "index": 2,
+              "text": "</a>"
             }
           ],
-          "answer": "1"
+          "answer": "12"
         },
         {
           "index": 5,
-          "type": 1,
-          "content": "Kode HTML mempunyai struktur yang sepesial. Contohnya ketika kita membuatnya diawali dengan kata <html>. \nTekan pada <html> untuk mengetahui hasilnya !",
-          "code": ["__", "<body>", "Halo Dunia", "</body>", "</html>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Halo Dunia</body></html>"
-            }
-          ],
-          "note": "Yaps, Dengan diawali dengan <html>, Web Browser akan mengetahui bahwa ini adalah Kode HTML!",
-          "question": "Tanda __ dapat diganti dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "<html>"
-            }
-          ],
-          "answer": "1"
-        },
-        {
-          "index": 6,
-          "type": 4,
-          "content": "<html> adalah tag, Tag akan membantu sebuah web browser untuk mencari tahu apa yang harus dibuat dari teks apa pun yang sebelum atau sesudahnya. \nApa kamu ingat tag yang lainnya ?",
+          "type": 0,
+          "content": "Untuk membuat link bekerja, kita harus menambahkan alamat tujuan. Untuk itu kita akan menggunakan sesuatu yang biasa kita kenal dengan attribute",
           "code": [],
           "output": [
             {
@@ -142,28 +124,20 @@
               "text": ""
             }
           ],
-          "note": "Sipp. Kita akan mencari tahu apa itu tag <body>",
+          "note": "Oke Lanjut -->",
           "question": "",
-          "choice": [
-            {
-              "index": 1,
-              "text": "Halo? Aku menulis HTML"
-            },
-            {
-              "index": 2,
-              "text": "<body> dan </body>"
-            }
-          ],
-          "answer": "2"
+          "choice": [],
+          "answer": ""
         },
         {
-          "index": 7,
-          "type": 0,
-          "content": "Tag diawali dengan tanda < dan diahiri dengan tanda >",
+          "index": 6,
+          "type": 1,
+          "content": "Attributes menyediakan informasi tambahan untuk sebuah tag. Dan kita menggunakan attributes di dalam opening tags. \nAttribute yang kita butuhkan untuk link disebut dengan href",
           "code": [
-            "__ __ __",
+            "<!doctype html>",
+            "<html>",
             "<body>",
-            "Selamat Datang Temanku !",
+            "<a __> Ayo pergi kesana </a>",
             "</body>",
             "</html>"
           ],
@@ -174,26 +148,54 @@
             },
             {
               "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
+              "text": "<!doctype html><html><body><a href>Ayo pergi kesana</a></body></html>"
             }
           ],
-          "note": "Sipp, Jangan lupakan kalau kita ingin membuat tag harus menggunkanan tanda < dan >",
+          "note": "Sipp. Kita akan menggunakan attribute href untuk menambakan alamat tujuan pada link kita.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "href"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Attribute href membutuhkan nilai. Untuk itu kalau kita ingin menambahkan nilai/alamat untuk href harus menggunakan equals sign '=' dan quotation marks ''",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<a href__ __> Ayo pergi kesana </a>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html><html><body><a href=\"\">Ayo pergi kesana</a></body></html>"
+            }
+          ],
+          "note": "Sipp, Itu berarti href akan menampung nilai apapun yang ada didalam quoation marks atau tanda \"\"",
           "question": "Tanda __ dapat diurutkan dengan ?",
           "choice": [
             {
               "index": 1,
-              "text": ">"
+              "text": "="
             },
             {
               "index": 2,
-              "text": "<"
-            },
-            {
-              "index": 3,
-              "text": "html"
+              "text": "\"\""
             }
           ],
-          "answer": "231"
+          "answer": "12"
         },
         {
           "index": 8,
