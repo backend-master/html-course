@@ -1,0 +1,416 @@
+{
+  "index": 1,
+  "name": "HTML",
+  "detail": "HTML adalah bahasa pemrograman di dalam internet. Dapatkan pengenalan tentang struktur dasar halaman web, tag umum dan secara sederhana untuk membuat style pada halaman website",
+  "image": "https://www.logolynx.com/images/logolynx/65/657a6e9d10aa84b8966f5f7c7539a370.jpeg",
+  "section": [
+    {
+      "index": 1,
+      "title": "Beginning HTML",
+      "total": 13,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Diluar sana lebih dari Miliaran Website yang ada pada internet. Mulai dari yang berlayanan besar seperti facebook sampai dengan website yang simple seperti blog, komunitas dan forum untuk berdiskusi.",
+          "image": "./assets/section-1-website.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke Lanjut -->",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "content": "Tapi tidak peduli sebagaimana kompleks atau simplenya sebuah website, kebanyakan website ditulis dengan HTML. \nAyo kita intip behind the scene dari website ini",
+          "code": [
+            "<html>",
+            "<body>",
+            "Selamat Datang Temanku !",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Selamat Datang Temanku !"
+            }
+          ],
+          "note": "Begitulah! Kode kode diantar \"Selamat Datang Temanku !\" sudah bisa menjadi website",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "content": "HTML adalah kepanjangan dari Hypertext Markup Language. Dengan kode HTML, kita dapat memberitahukan pada web browser bagaiamna caranya untuk menampilkan website.",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Okee Lanjut lagi -->",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 4,
+          "type": 1,
+          "content": "Web Browser seperti Chrome, Safari, Firefox dll tahu bagaimana untuk membaca kode HTML dan menampilkan website seperti pada kode. \nTekan pada \"Halo Dunia\" untuk menampilkan pada website",
+          "code": ["<html>", "<body>", "__", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Halo Dunia"
+            }
+          ],
+          "note": "Nice! Itu adalah kode untuk menampikan kata Halo Dunia pada web browser",
+          "question": "Tanda __ dapat diganti dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Halo Dunia"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "content": "Kode HTML mempunyai struktur yang sepesial. Contohnya ketika kita membuatnya diawali dengan kata <html>. \nTekan pada <html> untuk mengetahui hasilnya !",
+          "code": ["__", "<body>", "Halo Dunia", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Halo Dunia"
+            }
+          ],
+          "note": "Yaps, Dengan diawali dengan <html>, Web Browser akan mengetahui bahwa ini adalah Kode HTML!",
+          "question": "Tanda __ dapat diganti dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<html>"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 6,
+          "type": 4,
+          "content": "<html> adalah tag, Tag akan membantu sebuah web browser untuk mencari tahu apa yang harus dibuat dari teks apa pun yang sebelum atau sesudahnya. \nApa kamu ingat tag yang lainnya ?",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Sipp. Kita akan mencari tahu apa itu tag <body>",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Halo? Aku menulis HTML"
+            },
+            {
+              "index": 2,
+              "text": "<body> dan </body>"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Tag diawali dengan tanda < dan diahiri dengan tanda >",
+          "code": [
+            "__ __ __",
+            "<body>",
+            "Selamat Datang Temanku !",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Selamat Datang Temanku !"
+            }
+          ],
+          "note": "Sipp, Jangan lupakan kalau kita ingin membuat tag harus menggunkanan tanda < dan >",
+          "question": "Tanda __ dapat diurutkan dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": ">"
+            },
+            {
+              "index": 2,
+              "text": "<"
+            },
+            {
+              "index": 3,
+              "text": "html"
+            }
+          ],
+          "answer": "231"
+        },
+        {
+          "index": 8,
+          "type": 1,
+          "content": "Tag biasanya berpasang-pasangan. Jika kamu lihat <html> juga mempunyai pasangan. \nCoba temukan pasangannya",
+          "code": [
+            "<html>",
+            "<body>",
+            "Selamat Datang Temanku !",
+            "</body>",
+            "__"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Selamat Datang Temanku !"
+            }
+          ],
+          "note": "Bagus, Tag <html> mempunyai pasangan yaitu </html>",
+          "question": "Tanda __ dapat diganti dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</body>"
+            },
+            {
+              "index": 2,
+              "text": "</html>"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "content": "Tag mempunyai pola yang terdiri dari opening, kata special dan closing. Opening tag menggunakan tanda <, dilanjtukan dengan kata kata spesial dan diakhiri dengan Close tag yaitu >",
+          "code": [
+            "__",
+            "__",
+            "Selamat Datang Temanku !",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Selamat Datang Temanku !"
+            }
+          ],
+          "note": "Yaps, Semua html tag mempunyai pola yang sama",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<html>"
+            },
+            {
+              "index": 2,
+              "text": "<body>"
+            }
+          ],
+          "answer": "12"
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "content": "Closing tag mempunyai tambahan karakter sebelum kata spesial yaitu tanda / ",
+          "code": [
+            "<html>",
+            "<body>",
+            "Selamat Datang Temanku !",
+            "<__body>",
+            "<__html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Selamat Datang Temanku !"
+            }
+          ],
+          "note": "Sempurna ! tanda / adalah untuk Closing Tag",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "/"
+            },
+            {
+              "index": 2,
+              "text": "/"
+            }
+          ],
+          "answer": "12"
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "content": "Dapatkah kamu menggunakan Opening dan Closing Tag dengan benar. Dengan ilmu yang sudah kita dapat coba jawab pertanyaan dibawah !",
+          "code": ["__", "__", "Selamat Datang Temanku !", "__>", "__>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Selamat Datang Temanku !"
+            }
+          ],
+          "note": "Naaaah ! Sepertinya kamu sudah mulai terbiasa",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<body>"
+            },
+            {
+              "index": 2,
+              "text": "</html>"
+            },
+            {
+              "index": 3,
+              "text": "<html>"
+            },
+            {
+              "index": 4,
+              "text": "</body>"
+            }
+          ],
+          "answer": "3142"
+        },
+        {
+          "index": 12,
+          "type": 0,
+          "content": "Semua yang kita inginkan untuk tampil di web browser haruslah kita tulis diantara tag <body> dan </body>. \nCobat tampilkan sesuatu di web browser",
+          "code": ["<html>", "__", "__", "__>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Selamat Datang Temanku !"
+            }
+          ],
+          "note": "Mantap ! Asalkan kita menuliskan di antara tag <body> dan </body> kita dapat menampilkan apapun itu",
+          "question": "Pilih salah satu jawaban yang benar : ",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Selamat Datang Temanku !"
+            },
+            {
+              "index": 2,
+              "text": "<body>"
+            },
+            {
+              "index": 3,
+              "text": "</body>"
+            }
+          ],
+          "answer": "213"
+        },
+        {
+          "index": 13,
+          "type": 3,
+          "content": "Dengan semua itu kita dapat membuat website yang simple",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "Welcome To My Website!"
+            }
+          ],
+          "note": "Niceee ! Sekarang waktunya untuk langkah yang selanjutnya",
+          "question": "Coba urutkan kode yang dibawah menjadi kode yang benar",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Welcome To My Website"
+            },
+            {
+              "index": 2,
+              "text": "<body>"
+            },
+            {
+              "index": 3,
+              "text": "<html>"
+            },
+            {
+              "index": 4,
+              "text": "</body>"
+            },
+            {
+              "index": 4,
+              "text": "</html>"
+            }
+          ],
+          "answer": "32145"
+        }
+      ]
+    }
+  ]
+}
