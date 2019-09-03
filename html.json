@@ -48,7 +48,7 @@
             },
             {
               "type": "browser",
-              "text": "Selamat Datang Temanku !"
+              "text": "<html><body>Selamat Datang Temanku !</body></html>"
             }
           ],
           "note": "Begitulah! Kode kode diantar \"Selamat Datang Temanku !\" sudah bisa menjadi website",
@@ -88,7 +88,7 @@
             },
             {
               "type": "browser",
-              "text": "Halo Dunia"
+              "text": "<html><body>Halo Dunia</body></html>"
             }
           ],
           "note": "Nice! Itu adalah kode untuk menampikan kata Halo Dunia pada web browser",
@@ -113,7 +113,7 @@
             },
             {
               "type": "browser",
-              "text": "Halo Dunia"
+              "text": "<html><body>Halo Dunia</body></html>"
             }
           ],
           "note": "Yaps, Dengan diawali dengan <html>, Web Browser akan mengetahui bahwa ini adalah Kode HTML!",
@@ -173,7 +173,7 @@
             },
             {
               "type": "browser",
-              "text": "Selamat Datang Temanku !"
+              "text": "<html><body>Selamat Datang Temanku !</body></html>"
             }
           ],
           "note": "Sipp, Jangan lupakan kalau kita ingin membuat tag harus menggunkanan tanda < dan >",
@@ -212,7 +212,7 @@
             },
             {
               "type": "browser",
-              "text": "Selamat Datang Temanku !"
+              "text": "<html><body>Selamat Datang Temanku !</body></html>"
             }
           ],
           "note": "Bagus, Tag <html> mempunyai pasangan yaitu </html>",
@@ -247,7 +247,7 @@
             },
             {
               "type": "browser",
-              "text": "Selamat Datang Temanku !"
+              "text": "<html><body>Selamat Datang Temanku !</body></html>"
             }
           ],
           "note": "Yaps, Semua html tag mempunyai pola yang sama",
@@ -282,7 +282,7 @@
             },
             {
               "type": "browser",
-              "text": "Selamat Datang Temanku !"
+              "text": "<html><body>Selamat Datang Temanku !</body></html>"
             }
           ],
           "note": "Sempurna ! tanda / adalah untuk Closing Tag",
@@ -311,7 +311,7 @@
             },
             {
               "type": "browser",
-              "text": "Selamat Datang Temanku !"
+              "text": "<html><body>Selamat Datang Temanku !</body></html>"
             }
           ],
           "note": "Naaaah ! Sepertinya kamu sudah mulai terbiasa",
@@ -348,7 +348,7 @@
             },
             {
               "type": "browser",
-              "text": "Selamat Datang Temanku !"
+              "text": "<html><body>Selamat Datang Temanku !</body></html>"
             }
           ],
           "note": "Mantap ! Asalkan kita menuliskan di antara tag <body> dan </body> kita dapat menampilkan apapun itu",
