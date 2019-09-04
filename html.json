@@ -267,47 +267,17 @@
         },
         {
           "index": 8,
-          "type": 1,
-          "content": "Tag biasanya berpasang-pasangan. Jika kamu lihat <html> juga mempunyai pasangan. \nCoba temukan pasangannya",
+          "type": 0,
+          "content": "Kita juga dapat membagi baris di dalam paragraf, paragraf ini sangatlah sederhana",
           "code": [
             "<html>",
             "<body>",
-            "Selamat Datang Temanku !",
-            "</body>",
-            "__"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Bagus, Tag <html> mempunyai pasangan yaitu </html>",
-          "question": "Tanda __ dapat diganti dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "</body>"
-            },
-            {
-              "index": 2,
-              "text": "</html>"
-            }
-          ],
-          "answer": "2"
-        },
-        {
-          "index": 9,
-          "type": 0,
-          "content": "Tag mempunyai pola yang terdiri dari opening, kata special dan closing. Opening tag menggunakan tanda <, dilanjtukan dengan kata kata spesial dan diakhiri dengan Close tag yaitu >",
-          "code": [
+            "<h1>My favorite Things</h1>",
             "__",
+            "Raindrops on roses",
+            "whiskers on kittens",
+            "Bright copper kettles",
             "__",
-            "Selamat Datang Temanku !",
             "</body>",
             "</html>"
           ],
@@ -318,132 +288,78 @@
             },
             {
               "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
+              "text": "<html><body><p> Raindrops on roses \n whiskers on kittens \n Bright copper kettles </p></body></html>"
             }
           ],
-          "note": "Yaps, Semua html tag mempunyai pola yang sama",
+          "note": "Kita baru saja membuat sebuah paragraf",
+          "question": "Coba urutkan dengan benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</p>"
+            },
+            {
+              "index": 2,
+              "text": "<p>"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "content": "Paragraph sangat mudah saat ingin membagi dalam beberapa baris. Mari membuat dua paragraf dan masing-masing dibuat dua baris",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "__",
+            "Raindrops on roses",
+            "whiskers on kittens",
+            "__",
+            "__",
+            "Bright copper kettles",
+            "Warm woolen mittens",
+            "__",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body><p> Raindrops on roses \n whiskers on kittens <p> </p> Bright copper kettles \n Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Keren! kita membuat lebih dari satu paragraph",
           "question": "Tanda __ dapat diganti dengan urutan ?",
           "choice": [
             {
               "index": 1,
-              "text": "<html>"
+              "text": "</p>"
             },
             {
               "index": 2,
-              "text": "<body>"
+              "text": "<p>"
+            },
+            {
+              "index": 3,
+              "text": "</p>"
+            },
+            {
+              "index": 4,
+              "text": "<p>"
             }
           ],
-          "answer": "12"
+          "answer": "2143"
         },
         {
           "index": 10,
           "type": 0,
-          "content": "Closing tag mempunyai tambahan karakter sebelum kata spesial yaitu tanda / ",
-          "code": [
-            "<html>",
-            "<body>",
-            "Selamat Datang Temanku !",
-            "<__body>",
-            "<__html>"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Sempurna ! tanda / adalah untuk Closing Tag",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "/"
-            },
-            {
-              "index": 2,
-              "text": "/"
-            }
-          ],
-          "answer": "12"
-        },
-        {
-          "index": 11,
-          "type": 0,
-          "content": "Dapatkah kamu menggunakan Opening dan Closing Tag dengan benar. Dengan ilmu yang sudah kita dapat coba jawab pertanyaan dibawah !",
-          "code": ["__", "__", "Selamat Datang Temanku !", "__>", "__>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Naaaah ! Sepertinya kamu sudah mulai terbiasa",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "<body>"
-            },
-            {
-              "index": 2,
-              "text": "</html>"
-            },
-            {
-              "index": 3,
-              "text": "<html>"
-            },
-            {
-              "index": 4,
-              "text": "</body>"
-            }
-          ],
-          "answer": "3142"
-        },
-        {
-          "index": 12,
-          "type": 0,
-          "content": "Semua yang kita inginkan untuk tampil di web browser haruslah kita tulis diantara tag <body> dan </body>. \nCobat tampilkan sesuatu di web browser",
-          "code": ["<html>", "__", "__", "__>", "</html>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Mantap ! Asalkan kita menuliskan di antara tag <body> dan </body> kita dapat menampilkan apapun itu",
-          "question": "Pilih salah satu jawaban yang benar : ",
-          "choice": [
-            {
-              "index": 1,
-              "text": "Selamat Datang Temanku !"
-            },
-            {
-              "index": 2,
-              "text": "<body>"
-            },
-            {
-              "index": 3,
-              "text": "</body>"
-            }
-          ],
-          "answer": "213"
-        },
-        {
-          "index": 13,
-          "type": 3,
-          "content": "Dengan semua itu kita dapat membuat website yang simple",
+          "content": "Kita membuat heading dan dua paragraf sebelumnya, numun sepertinya butuh sedikit penambahan. Mari gunakan beberapa line breaks",
           "code": [],
           "output": [
             {
@@ -452,34 +368,432 @@
             },
             {
               "type": "browser",
-              "text": "Welcome To My Website!"
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on roses <br> whiskers on kittens <p> </p> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
             }
           ],
-          "note": "Niceee ! Sekarang waktunya untuk langkah yang selanjutnya",
-          "question": "Coba urutkan kode yang dibawah menjadi kode yang benar",
+          "note": "Maru Lanjut",
+          "question": "",
           "choice": [
             {
               "index": 1,
-              "text": "Welcome To My Website"
+              "text": ""
             },
             {
               "index": 2,
-              "text": "<body>"
+              "text": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "content": "Kita menambahkan paragraf dalam beberapa baris menggunakan line breaks dengan tag <br>",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on roses__",
+            "whiskers on kittens",
+            "</p>",
+            "<p>",
+            "Bright copper kettles__",
+            "Warm woolen mittens",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on roses <br> whiskers on kittens <p> </p> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Cantik! Terlihat makin bagus",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<br>"
+            },
+            {
+              "index": 2,
+              "text": "<br>"
+            }
+          ],
+          "answer": "12"
+        },
+        {
+          "index": 12,
+          "type": 1,
+          "content": "<br> tidak punya tag penutup karena ini adalah tag kosong atau tidak memiliki konten, namun tetap dibutuhkan dalam struktur halaman website",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on roses<br>",
+            "whiskers on kittens",
+            "</p>",
+            "<p>",
+            "Bright copper kettles__",
+            "Warm woolen mittens",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on roses <br> whiskers on kittens <p> </p> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Tepat! Kita bisa menggunakan tag <br> sebanyak yang kita mau, namun tetap jangan menutup nya",
+          "question": "Pilih salah satu jawaban yang benar : ",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</br>"
+            },
+            {
+              "index": 2,
+              "text": "<br>"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "content": "Bagaimana jika kita ingin penekanan (teks miring) sesuatu pada teks atau paragraf? Yaa, tentu ada juga tag nya tersendiri",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on __roses__<br>",
+            "whiskers on kittens<br>",
+            "Bright copper kettles<br>",
+            "Warm woolen mittens",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on kittens <br> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Kerja bagus! Kita sudah menambahkan penenkanan (teks miring) untuk kata yang dianggap penting",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</em>"
+            },
+            {
+              "index": 2,
+              "text": "<em>"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "content": "Ada juga tag untuk menebalkan teks, yaitu <strong> tag",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on __kittens__",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Itu dia! kita menggunakan tag <strong> untuk menebalkan teks",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</strong>"
+            },
+            {
+              "index": 2,
+              "text": "<strong>"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 15,
+          "type": 0,
+          "content": "Kita sudah mencoba beberapa tag ditampilkan pada halaman wesite. Tetapi ada suatu tag yang tidak akan tampil meskipun tag ini digunakan, yaitu tag <head>",
+          "code": [
+            "<html>",
+            "<body>",
+            "__",
+            "</head>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Itu dia! kita menggunakan tag <strong> untuk menebalkan teks",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "a"
+            },
+            {
+              "index": 2,
+              "text": "e"
             },
             {
               "index": 3,
-              "text": "<html>"
+              "text": "h"
             },
             {
               "index": 4,
-              "text": "</body>"
-            },
-            {
-              "index": 4,
-              "text": "</html>"
+              "text": "d"
             }
           ],
-          "answer": "32145"
+          "answer": "3214"
+        },
+        {
+          "index": 16,
+          "type": 0,
+          "content": "Kita sudah mencoba beberapa tag ditampilkan pada halaman wesite. Tetapi ada suatu tag yang tidak akan tampil meskipun tag ini digunakan, yaitu tag <head>",
+          "code": [
+            "<html>",
+            "__",
+            "</head>",
+            "<body>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Sempurna! Mari kita bereksperimen dengan tag <head> ini",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "a"
+            },
+            {
+              "index": 2,
+              "text": "e"
+            },
+            {
+              "index": 3,
+              "text": "h"
+            },
+            {
+              "index": 4,
+              "text": "d"
+            }
+          ],
+          "answer": "3214"
+        },
+        {
+          "index": 17,
+          "type": 0,
+          "content": "Tag <head> digunakan untuk menambahkan informasi khusus seperti title website maupun style.",
+          "image": "./assets/section-2-head.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke! Lanjut yuk",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 18,
+          "type": 0,
+          "content": "Mari kita tambahkan title pada website kita. Untuk itu kita membutuhkan tag <title> dan menulisnya didalam tag <head>",
+          "code": [
+            "<html>",
+            "__",
+            "__My Page__",
+            "__",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on <strong>kittens</strong>",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html> <head><title>My Page</title></head> <body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Itu dia! Sekarang website kita sudah memiliki title-nya",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</head>"
+            },
+            {
+              "index": 2,
+              "text": "</title>"
+            },
+            {
+              "index": 3,
+              "text": "<head>"
+            },
+            {
+              "index": 4,
+              "text": "<title>"
+            }
+          ],
+          "answer": "3421"
+        },
+        {
+          "index": 19,
+          "type": 3,
+          "content": "Mari sedikit mencoba tantangan. Bisakan kamu mengurutkan baris kode ini dengan benar?",
+          "code": [
+            "<head>",
+            "</html>",
+            "<title>My Page</title>",
+            "</head>",
+            "<html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yep! Urutanya sangat masuk akal",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 20,
+          "type": 0,
+          "content": "Ada suatu hal yang cukup penting dalam sebuah website yang mungkin sering dihiraukan, yaitu: doctype",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Baiklah! Lanjut sedikit lagi ya",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 21,
+          "type": 1,
+          "content": "doctype memberi tahu browser versi HTML berapa yang kita gunakan.",
+          "code": [
+            "__",
+            "<html>",
+            "<head>",
+            "<title>My Page</title>",
+            "</head>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on <strong>kittens</strong>",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <head><title>My Page</title></head> <body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Mantap! Saat kita tidak mendefinisikan doctype, browser akan menebaknya sendiri yang mana ini hal ini bukanlah hal yang bagus",
+          "question": "Coba pilih jawaban ada;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<!doctype html>"
+            }
+          ],
+          "answer": "1"
         }
       ]
     }
