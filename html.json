@@ -786,7 +786,7 @@
             }
           ],
           "note": "Mantap! Saat kita tidak mendefinisikan doctype, browser akan menebaknya sendiri yang mana ini hal ini bukanlah hal yang bagus",
-          "question": "Coba pilih jawaban ada;",
+          "question": "Coba pilih jawaban yang ada;",
           "choice": [
             {
               "index": 1,
@@ -794,6 +794,57 @@
             }
           ],
           "answer": "1"
+        },
+        {
+          "index": 22,
+          "type": 0,
+          "content": "Untuk mengatur doctype, kita perlu mengawalinya dengan '!', kemuduan diikuti dengan 'doctype' dan 'html', Coba urutkan!",
+          "code": [
+            "__",
+            "<html>",
+            "<head>",
+            "<title>My Page</title>",
+            "</head>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on <strong>kittens</strong>",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <head><title>My Page</title></head> <body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Keren! Sekarang websitenya telah sempurna",
+          "question": "Coba urutka jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "!"
+            },
+            {
+              "index": 2,
+              "text": "<"
+            },
+            {
+              "index": 3,
+              "text": ">"
+            },
+            {
+              "index": 4,
+              "text": "doctype html"
+            }
+          ],
+          "answer": "2143"
         }
       ]
     }
