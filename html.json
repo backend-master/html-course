@@ -6,15 +6,15 @@
   "color": "0xFFeeb613",
   "section": [
     {
-      "index": 1,
-      "title": "Beginning HTML",
-      "total": 13,
+      "index": 5,
+      "title": "Lists",
+      "total": 15,
       "data": [
         {
           "index": 1,
           "type": 0,
-          "content": "Diluar sana lebih dari Miliaran Website yang ada pada internet. Mulai dari yang berlayanan besar seperti facebook sampai dengan website yang simple seperti blog, komunitas dan forum untuk berdiskusi.",
-          "image": "./assets/section-1-website.png",
+          "content": "Link sangat bagus untuk menhubungkan website satu sama lain, juga bagus untuk menghubungkan halaman web satu dengan yang lain",
+          "image": "./assets/section-5-link.png",
           "code": [],
           "output": [
             {
@@ -26,22 +26,26 @@
               "text": ""
             }
           ],
-          "note": "Oke Lanjut -->",
+          "note": "Bagus! Mari lanjutkan",
           "question": "",
-          "choice": [],
+          "choice": [
+            {
+              "index": 1,
+              "text": ""
+            },
+            {
+              "index": 2,
+              "text": ""
+            }
+          ],
           "answer": ""
         },
         {
           "index": 2,
           "type": 0,
-          "content": "Tapi tidak peduli sebagaimana kompleks atau simplenya sebuah website, kebanyakan website ditulis dengan HTML. \nAyo kita intip behind the scene dari website ini",
-          "code": [
-            "<html>",
-            "<body>",
-            "Selamat Datang Temanku !",
-            "</body>",
-            "</html>"
-          ],
+          "content": "Menuntun user ke berbagai halaman website disebut navigasi Untuk membuat menu navigasi, kita akan beriteraksi dengan list",
+          "image": "./assets/section-5-navlink.png",
+          "code": [],
           "output": [
             {
               "type": "script.js",
@@ -49,18 +53,27 @@
             },
             {
               "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
+              "text": ""
             }
           ],
-          "note": "Begitulah! Kode kode diantar \"Selamat Datang Temanku !\" sudah bisa menjadi website",
+          "note": "Baiklah! Ayo kita teruskan",
           "question": "",
-          "choice": [],
+          "choice": [
+            {
+              "index": 1,
+              "text": ""
+            },
+            {
+              "index": 2,
+              "text": ""
+            }
+          ],
           "answer": ""
         },
         {
           "index": 3,
           "type": 0,
-          "content": "HTML adalah kepanjangan dari Hypertext Markup Language. Dengan kode HTML, kita dapat memberitahukan pada web browser bagaiamna caranya untuk menampilkan website.",
+          "content": "1. Harry \n 2. Hermione \n 3. Ron \n List sangat baik untuk mengelola informasi dan merupakan elemen yang paling sering digunakan pada HTML. Sebelum menggunakan List, mari memulai dari dasar",
           "code": [],
           "output": [
             {
@@ -72,98 +85,30 @@
               "text": ""
             }
           ],
-          "note": "Okee Lanjut lagi -->",
+          "note": "Oke! Kita mulai",
           "question": "",
-          "choice": [],
+          "choice": [
+            {
+              "index": 1,
+              "text": ""
+            },
+            {
+              "index": 2,
+              "text": ""
+            }
+          ],
           "answer": ""
         },
         {
           "index": 4,
-          "type": 1,
-          "content": "Web Browser seperti Chrome, Safari, Firefox dll tahu bagaimana untuk membaca kode HTML dan menampilkan website seperti pada kode. \nTekan pada \"Halo Dunia\" untuk menampilkan pada website",
-          "code": ["<html>", "<body>", "__", "</body>", "</html>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Halo Dunia</body></html>"
-            }
-          ],
-          "note": "Nice! Itu adalah kode untuk menampikan kata Halo Dunia pada web browser",
-          "question": "Tanda __ dapat diganti dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "Halo Dunia"
-            }
-          ],
-          "answer": "1"
-        },
-        {
-          "index": 5,
-          "type": 1,
-          "content": "Kode HTML mempunyai struktur yang sepesial. Contohnya ketika kita membuatnya diawali dengan kata <html>. \nTekan pada <html> untuk mengetahui hasilnya !",
-          "code": ["__", "<body>", "Halo Dunia", "</body>", "</html>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Halo Dunia</body></html>"
-            }
-          ],
-          "note": "Yaps, Dengan diawali dengan <html>, Web Browser akan mengetahui bahwa ini adalah Kode HTML!",
-          "question": "Tanda __ dapat diganti dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "<html>"
-            }
-          ],
-          "answer": "1"
-        },
-        {
-          "index": 6,
-          "type": 4,
-          "content": "<html> adalah tag, Tag akan membantu sebuah web browser untuk mencari tahu apa yang harus dibuat dari teks apa pun yang sebelum atau sesudahnya. \nApa kamu ingat tag yang lainnya ?",
-          "code": [],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": ""
-            }
-          ],
-          "note": "Sipp. Kita akan mencari tahu apa itu tag <body>",
-          "question": "",
-          "choice": [
-            {
-              "index": 1,
-              "text": "Halo? Aku menulis HTML"
-            },
-            {
-              "index": 2,
-              "text": "<body> dan </body>"
-            }
-          ],
-          "answer": "2"
-        },
-        {
-          "index": 7,
           "type": 0,
-          "content": "Tag diawali dengan tanda < dan diahiri dengan tanda >",
+          "content": "Tag List terdiri dari beberapa tipe yang berbeda. Mari mulai dengan Ordered List",
           "code": [
-            "__ __ __",
+            "<!doctype html>",
+            "<html>",
             "<body>",
-            "Selamat Datang Temanku !",
+            "__",
+            "__",
             "</body>",
             "</html>"
           ],
@@ -174,11 +119,335 @@
             },
             {
               "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
+              "text": ""
             }
           ],
-          "note": "Sipp, Jangan lupakan kalau kita ingin membuat tag harus menggunkanan tanda < dan >",
-          "question": "Tanda __ dapat diurutkan dengan ?",
+          "note": "Bagus Sekali! Kita telah membuat ordered list, tanpa kontent tentunya",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "/ol"
+            },
+            {
+              "index": 2,
+              "text": "ol"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "content": "Kita baru saja menggunakan <ol> untuk membuat list, namun masih kosong. Untuk membuat list item, kita bisa menggunakan tag <li>",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "______",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol> <li>Harry</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Kerja bagus!",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<li>"
+            },
+            {
+              "index": 2,
+              "text": "</li>"
+            },
+            {
+              "index": 4,
+              "text": "Harry"
+            }
+          ],
+          "answer": "132"
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "content": "Bisakah kamu membuat ordered list dari awal?",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__",
+            "__Harry__",
+            "__Hermione__",
+            "__Ron__",
+            "__",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Kerja bagus! Kita telah membuka dan menutup semua tag.",
+          "question": "Tanda _ dapat diisi dengan urutan",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</li>"
+            },
+            {
+              "index": 2,
+              "text": "</ol>"
+            },
+            {
+              "index": 3,
+              "text": "<li>"
+            },
+            {
+              "index": 4,
+              "text": "<li>"
+            },
+            {
+              "index": 5,
+              "text": "</li>"
+            },
+            {
+              "index": 6,
+              "text": "<ol>"
+            },
+            {
+              "index": 7,
+              "text": "</li>"
+            },
+            {
+              "index": 8,
+              "text": "<li>"
+            }
+          ],
+          "answer": "6314872"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Huruf atau angka sebelum list item disebut dengan penanda (markers). Kita juga bisa menggunakan huruf ketimbang angka",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke lanjut",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 8,
+          "type": 1,
+          "content": "Untuk menentukan tipe penanda list, kita bisa menambahkan atribut type. Untuk penanda hurup kapital, nilai yang kita butuhkan ialah 'A'",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<ol__",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ol>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol type='A'> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Lihat! Kita membuat list dengan urutan hufur kapital",
+          "question": "Tanda __ dapat diganti dengan urutan?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "'A'"
+            },
+            {
+              "index": 3,
+              "text": "type"
+            }
+          ],
+          "answer": "312"
+        },
+        {
+          "index": 9,
+          "type": 2,
+          "content": "Jika kita ingin angka romawi sebagai penanda. kita bisa menggunakan huruf 'I' sebagai penanda. Seperti sebelumnya, gunakan atribut 'type'",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<ol__",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ol>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol type='I'> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Mantap! Kita telah mengetahui atribut untuk list.",
+          "question": "Tanda __ dapat diganti dengan urutan?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "I"
+            },
+            {
+              "index": 2,
+              "text": "'"
+            },
+            {
+              "index": 3,
+              "text": "="
+            },
+            {
+              "index": 4,
+              "text": "type"
+            },
+            {
+              "index": 5,
+              "text": "'"
+            }
+          ],
+          "answer": "43512"
+        },
+        {
+          "index": 10,
+          "type": 2,
+          "content": "Jika kita ingin mengurutkan secera menurun (descending), kita hanya perlu menambhakan atribut reserved pada tag <ol>",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<ol type='I' __",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ul>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol type='I' reversed> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Wow! Sangat mudah bukan?",
+          "question": "Urutkan jawaban dengan benar : ",
+          "choice": [
+            {
+              "index": 1,
+              "text": "r"
+            },
+            {
+              "index": 2,
+              "text": "r"
+            },
+            {
+              "index": 3,
+              "text": "s"
+            },
+            {
+              "index": 4,
+              "text": "e"
+            },
+            {
+              "index": 5,
+              "text": "v"
+            },
+            {
+              "index": 6,
+              "text": "d"
+            },
+            {
+              "index": 7,
+              "text": "e"
+            },
+            {
+              "index": 8,
+              "text": "e"
+            }
+          ],
+          "answer": "28571346"
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "content": "Unordered list mungkin terdengar agak sedikit semrawut. Namun justru lebih sederhana, untuk membuatnya cukup dengan tag <ul>",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ul>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ul> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ul> </body> </html>"
+            }
+          ],
+          "note": "Sempurna! Kita bisa menggunakanya ketika tidak membutuhkan urutan yang spesifik",
+          "question": "Coba urutkan dengan benar : ",
           "choice": [
             {
               "index": 1,
@@ -186,58 +455,32 @@
             },
             {
               "index": 2,
-              "text": "<"
+              "text": "ul"
             },
             {
               "index": 3,
-              "text": "html"
+              "text": "/"
+            },
+            {
+              "index": 4,
+              "text": "<"
             }
           ],
-          "answer": "231"
+          "answer": "4321"
         },
         {
-          "index": 8,
-          "type": 1,
-          "content": "Tag biasanya berpasang-pasangan. Jika kamu lihat <html> juga mempunyai pasangan. \nCoba temukan pasangannya",
+          "index": 12,
+          "type": 2,
+          "content": "Sama seperti orderd lists, kita juga menggunakan <li> untuk menambah list item.",
           "code": [
+            "<!doctype html>",
             "<html>",
             "<body>",
-            "Selamat Datang Temanku !",
-            "</body>",
-            "__"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Bagus, Tag <html> mempunyai pasangan yaitu </html>",
-          "question": "Tanda __ dapat diganti dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "</body>"
-            },
-            {
-              "index": 2,
-              "text": "</html>"
-            }
-          ],
-          "answer": "2"
-        },
-        {
-          "index": 9,
-          "type": 0,
-          "content": "Tag mempunyai pola yang terdiri dari opening, kata special dan closing. Opening tag menggunakan tanda <, dilanjtukan dengan kata kata spesial dan diakhiri dengan Close tag yaitu >",
-          "code": [
-            "__",
-            "__",
-            "Selamat Datang Temanku !",
+            "<ul>",
+            "__Harry__",
+            "__Hermione__",
+            "__Ron__",
+            "</ul>",
             "</body>",
             "</html>"
           ],
@@ -248,133 +491,66 @@
             },
             {
               "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
+              "text": "<!doctype html> <html> <body> <ul> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ul> </body> </html>"
             }
           ],
-          "note": "Yaps, Semua html tag mempunyai pola yang sama",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "note": "Kau mengurutknaya seperti seorang profesional!",
+          "question": "Coba urutkan dengan benar",
           "choice": [
             {
               "index": 1,
-              "text": "<html>"
+              "text": "</li>"
             },
             {
               "index": 2,
-              "text": "<body>"
-            }
-          ],
-          "answer": "12"
-        },
-        {
-          "index": 10,
-          "type": 0,
-          "content": "Closing tag mempunyai tambahan karakter sebelum kata spesial yaitu tanda / ",
-          "code": [
-            "<html>",
-            "<body>",
-            "Selamat Datang Temanku !",
-            "<__body>",
-            "<__html>"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Sempurna ! tanda / adalah untuk Closing Tag",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "/"
-            },
-            {
-              "index": 2,
-              "text": "/"
-            }
-          ],
-          "answer": "12"
-        },
-        {
-          "index": 11,
-          "type": 0,
-          "content": "Dapatkah kamu menggunakan Opening dan Closing Tag dengan benar. Dengan ilmu yang sudah kita dapat coba jawab pertanyaan dibawah !",
-          "code": ["__", "__", "Selamat Datang Temanku !", "__>", "__>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Naaaah ! Sepertinya kamu sudah mulai terbiasa",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "<body>"
-            },
-            {
-              "index": 2,
-              "text": "</html>"
+              "text": "</li>"
             },
             {
               "index": 3,
-              "text": "<html>"
+              "text": "<li>"
             },
             {
               "index": 4,
-              "text": "</body>"
-            }
-          ],
-          "answer": "3142"
-        },
-        {
-          "index": 12,
-          "type": 0,
-          "content": "Semua yang kita inginkan untuk tampil di web browser haruslah kita tulis diantara tag <body> dan </body>. \nCobat tampilkan sesuatu di web browser",
-          "code": ["<html>", "__", "__", "__>", "</html>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
+              "text": "<li>"
             },
             {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Mantap ! Asalkan kita menuliskan di antara tag <body> dan </body> kita dapat menampilkan apapun itu",
-          "question": "Pilih salah satu jawaban yang benar : ",
-          "choice": [
-            {
-              "index": 1,
-              "text": "Selamat Datang Temanku !"
+              "index": 5,
+              "text": "</li>"
             },
             {
-              "index": 2,
-              "text": "<body>"
-            },
-            {
-              "index": 3,
-              "text": "</body>"
+              "index": 6,
+              "text": "<li>"
             }
           ],
-          "answer": "213"
+          "answer": "653142"
         },
         {
           "index": 13,
-          "type": 3,
-          "content": "Dengan semua itu kita dapat membuat website yang simple",
-          "code": [],
+          "type": 0,
+          "content": "Kita bisa mengkombinasikan antara odered dan unordered list",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__",
+            "<li>My personal list of the best comic book movies:",
+            "__",
+            "<li>The Dart Knight</li>",
+            "<li>Spiderman - Far From Home</li>",
+            "<li>Avengers - Endgame</li>",
+            "__",
+            "</li>",
+            "<li>My personal list of the worst comic book movies:",
+            "<ol reversed>",
+            "<li>Howard The Duck</li>",
+            "<li>Superman IV</li>",
+            "<li>Batman & Robin</li>",
+            "</ol>",
+            "</li>",
+            "__",
+            "</body>",
+            "</html>"
+          ],
           "output": [
             {
               "type": "script.js",
@@ -382,34 +558,140 @@
             },
             {
               "type": "browser",
-              "text": "Welcome To My Website!"
+              "text": "<!doctype html> <html> <body> <ul> <li>My personal list of the best comic book movies: <ol> <li>The Dart Knight</li> <li>Spiderman - Far From Home</li> <li>Avengers - Endgame</li> </ol> </li> <li>My personal list of the worst comic book movies: <ol reversed> <li>Howard The Duck</li> <li>Superman IV</li> <li>Batman & Robin</li> </ol> </li> </ul></body> </html> "
             }
           ],
-          "note": "Niceee ! Sekarang waktunya untuk langkah yang selanjutnya",
-          "question": "Coba urutkan kode yang dibawah menjadi kode yang benar",
+          "note": "Keren! Kita menambahkan reversed pada unorderd list dalam kombinasi tersebut",
+          "question": "Coba urutkan dengan benar  ",
           "choice": [
             {
               "index": 1,
-              "text": "Welcome To My Website"
+              "text": "</ol>"
             },
             {
               "index": 2,
-              "text": "<body>"
+              "text": "</ul>"
             },
             {
               "index": 3,
-              "text": "<html>"
+              "text": "<ul>"
             },
             {
               "index": 4,
-              "text": "</body>"
-            },
-            {
-              "index": 4,
-              "text": "</html>"
+              "text": "<ol>"
             }
           ],
-          "answer": "32145"
+          "answer": "35241"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "content": "Sekarang mari kita masukan tag <a> auntuk menambah link",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "My personal list of the best comic book movies:",
+            "<ol>",
+            "<li>__ __The Dart Knight__</li>",
+            "<li>Spiderman - Far From Home</li>",
+            "<li>Avengers - Endgame</li>",
+            "</ol>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol> <li><a href='https://en.wikipedia.org/wiki/The_Dark_Knight_(film)'>The Dart Knight</a></li> <li>Spiderman - Far From Home</li> <li>Avengers - Endgame</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Mantap! kita bisa menambahkan link kesetian item jika mau",
+          "question": "Coba urutkan dengan benar",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</li>"
+            },
+            {
+              "index": 2,
+              "text": "</li>"
+            },
+            {
+              "index": 3,
+              "text": "<li>"
+            },
+            {
+              "index": 4,
+              "text": "<li>"
+            },
+            {
+              "index": 5,
+              "text": "</li>"
+            },
+            {
+              "index": 6,
+              "text": "<li>"
+            }
+          ],
+          "answer": "653142"
+        },
+        {
+          "index": 15,
+          "type": 0,
+          "content": "Dengan itu kita bisa membuat navigasi dengan HTML",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "My personal list of the best comic book movies:",
+            "<ul>",
+            "__",
+            "<li><a href='about.html'>About</a></li>",
+            "<li><a href='contact.html'>Contact</a></li>",
+            "</ul>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ul> <li><a href='home.html'>Home</a></li> <li><a href='about.html'>About</a></li> <li><a href='contact.html'>Contact</a></li> </ul> </body> </html>"
+            }
+          ],
+          "note": "Bagus! Inilah bagaimana kebanyakan webiste membuat navigasinya.",
+          "question": "Coba urutkan dengan benar",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</li>"
+            },
+            {
+              "index": 2,
+              "text": "<a href='index.html'>"
+            },
+            {
+              "index": 3,
+              "text": "<li>"
+            },
+            {
+              "index": 4,
+              "text": "</a>"
+            },
+            {
+              "index": 5,
+              "text": "Home"
+            }
+          ],
+          "answer": "32541"
         }
       ]
     }
