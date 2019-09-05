@@ -1,419 +1,468 @@
-{
-  "index": 1,
-  "name": "HTML",
-  "detail": "HTML adalah bahasa pemrograman di dalam internet. Dapatkan pengenalan tentang struktur dasar halaman web, tag umum dan secara sederhana untuk membuat style pada halaman website",
-  "image": "https://www.logolynx.com/images/logolynx/65/657a6e9d10aa84b8966f5f7c7539a370.jpeg",
-  "color": "0xFFeeb613",
-  "section": [
-    {
-      "index": 1,
-      "title": "Links and Multimedia",
-      "total": 21,
-      "data": [
-        {
-          "index": 1,
-          "type": 0,
-          "content": "Untuk lebih jelas lagi, file yang ditulis dengan HTML adalah webpages. Ketika file file tersebut bergabung menjadi satu maka itu disebut dengan website",
-          "image": "./assets/section-3-file.png",
-          "code": [],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": ""
-            }
-          ],
-          "note": "Oke Lanjut -->",
-          "question": "",
-          "choice": [],
-          "answer": ""
-        },
-        {
-          "index": 2,
-          "type": 0,
-          "content": "Dan itu adalah link atau hyperlinks. Mereka yang menggabungkan webpage dan menghubungkannya menjadi website",
-          "image": "./assets/section-3-chain.png",
-          "code": [],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": ""
-            }
-          ],
-          "note": "Okee Lanjut -->",
-          "question": "",
-          "choice": [],
-          "answer": ""
-        },
-        {
-          "index": 3,
-          "type": 0,
-          "content": "Jadi, ketimbang harus mengetik halaman web atau alamat situs web ke dalam browser web, link dapat membawa kamu ke sana dengan satu klik sederhana",
-          "image": "./assets/section-3-webpage.png",
-          "code": [],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": ""
-            }
-          ],
-          "note": "Okee Lanjut lagi -->",
-          "question": "",
-          "choice": [],
-          "answer": ""
-        },
-        {
-          "index": 4,
-          "type": 0,
-          "content": "Tag link sangat singkat dan simple: <a>. Diantara tag link tersebut kita hanya perlu menuliskan sesuatu agar dapat menjadi link. ",
-          "code": [
-            "<!doctype html>",
-            "<html>",
-            "<body>",
-            "__ Ayo pergi kesana __",
-            "</body>",
-            "</html>"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<!doctype html><html><body>__ Ayo pergi kesana __</body></html>"
-            }
-          ],
-          "note": "Nice! Mudah bukan ? Web Browser akan menampilkan apapun diantara tag <a> sebagai link",
-          "question": "Tanda __ dapat diganti dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "<a>"
-            },
-            {
-              "index": 2,
-              "text": "</a>"
-            }
-          ],
-          "answer": "12"
-        },
-        {
-          "index": 5,
-          "type": 0,
-          "content": "Untuk membuat link bekerja, kita harus menambahkan alamat tujuan. Untuk itu kita akan menggunakan sesuatu yang biasa kita kenal dengan attribute",
-          "code": [],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": ""
-            }
-          ],
-          "note": "Oke Lanjut -->",
-          "question": "",
-          "choice": [],
-          "answer": ""
-        },
-        {
-          "index": 6,
-          "type": 1,
-          "content": "Attributes menyediakan informasi tambahan untuk sebuah tag. Dan kita menggunakan attributes di dalam opening tags. \nAttribute yang kita butuhkan untuk link disebut dengan href",
-          "code": [
-            "<!doctype html>",
-            "<html>",
-            "<body>",
-            "<a __> Ayo pergi kesana </a>",
-            "</body>",
-            "</html>"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<!doctype html><html><body><a href>Ayo pergi kesana</a></body></html>"
-            }
-          ],
-          "note": "Sipp. Kita akan menggunakan attribute href untuk menambakan alamat tujuan pada link kita.",
-          "question": "",
-          "choice": [
-            {
-              "index": 1,
-              "text": "href"
-            }
-          ],
-          "answer": "1"
-        },
-        {
-          "index": 7,
-          "type": 0,
-          "content": "Attribute href membutuhkan nilai. Untuk itu kalau kita ingin menambahkan nilai/alamat untuk href harus menggunakan equals sign '=' dan quotation marks ''",
-          "code": [
-            "<!doctype html>",
-            "<html>",
-            "<body>",
-            "<a href__ __> Ayo pergi kesana </a>",
-            "</body>",
-            "</html>"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<!doctype html><html><body><a href=\"\">Ayo pergi kesana</a></body></html>"
-            }
-          ],
-          "note": "Sipp, Itu berarti href akan menampung nilai apapun yang ada didalam quoation marks atau tanda \"\"",
-          "question": "Tanda __ dapat diurutkan dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "="
-            },
-            {
-              "index": 2,
-              "text": "\"\""
-            }
-          ],
-          "answer": "12"
-        },
-        {
-          "index": 8,
-          "type": 1,
-          "content": "Tag biasanya berpasang-pasangan. Jika kamu lihat <html> juga mempunyai pasangan. \nCoba temukan pasangannya",
-          "code": [
-            "<html>",
-            "<body>",
-            "Selamat Datang Temanku !",
-            "</body>",
-            "__"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Bagus, Tag <html> mempunyai pasangan yaitu </html>",
-          "question": "Tanda __ dapat diganti dengan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "</body>"
-            },
-            {
-              "index": 2,
-              "text": "</html>"
-            }
-          ],
-          "answer": "2"
-        },
-        {
-          "index": 9,
-          "type": 0,
-          "content": "Tag mempunyai pola yang terdiri dari opening, kata special dan closing. Opening tag menggunakan tanda <, dilanjtukan dengan kata kata spesial dan diakhiri dengan Close tag yaitu >",
-          "code": [
-            "__",
-            "__",
-            "Selamat Datang Temanku !",
-            "</body>",
-            "</html>"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Yaps, Semua html tag mempunyai pola yang sama",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "<html>"
-            },
-            {
-              "index": 2,
-              "text": "<body>"
-            }
-          ],
-          "answer": "12"
-        },
-        {
-          "index": 10,
-          "type": 0,
-          "content": "Closing tag mempunyai tambahan karakter sebelum kata spesial yaitu tanda / ",
-          "code": [
-            "<html>",
-            "<body>",
-            "Selamat Datang Temanku !",
-            "<__body>",
-            "<__html>"
-          ],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Sempurna ! tanda / adalah untuk Closing Tag",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "/"
-            },
-            {
-              "index": 2,
-              "text": "/"
-            }
-          ],
-          "answer": "12"
-        },
-        {
-          "index": 11,
-          "type": 0,
-          "content": "Dapatkah kamu menggunakan Opening dan Closing Tag dengan benar. Dengan ilmu yang sudah kita dapat coba jawab pertanyaan dibawah !",
-          "code": ["__", "__", "Selamat Datang Temanku !", "__>", "__>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Naaaah ! Sepertinya kamu sudah mulai terbiasa",
-          "question": "Tanda __ dapat diganti dengan urutan ?",
-          "choice": [
-            {
-              "index": 1,
-              "text": "<body>"
-            },
-            {
-              "index": 2,
-              "text": "</html>"
-            },
-            {
-              "index": 3,
-              "text": "<html>"
-            },
-            {
-              "index": 4,
-              "text": "</body>"
-            }
-          ],
-          "answer": "3142"
-        },
-        {
-          "index": 12,
-          "type": 0,
-          "content": "Semua yang kita inginkan untuk tampil di web browser haruslah kita tulis diantara tag <body> dan </body>. \nCobat tampilkan sesuatu di web browser",
-          "code": ["<html>", "__", "__", "__>", "</html>"],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "<html><body>Selamat Datang Temanku !</body></html>"
-            }
-          ],
-          "note": "Mantap ! Asalkan kita menuliskan di antara tag <body> dan </body> kita dapat menampilkan apapun itu",
-          "question": "Pilih salah satu jawaban yang benar : ",
-          "choice": [
-            {
-              "index": 1,
-              "text": "Selamat Datang Temanku !"
-            },
-            {
-              "index": 2,
-              "text": "<body>"
-            },
-            {
-              "index": 3,
-              "text": "</body>"
-            }
-          ],
-          "answer": "213"
-        },
-        {
-          "index": 13,
-          "type": 3,
-          "content": "Dengan semua itu kita dapat membuat website yang simple",
-          "code": [],
-          "output": [
-            {
-              "type": "script.js",
-              "text": ""
-            },
-            {
-              "type": "browser",
-              "text": "Welcome To My Website!"
-            }
-          ],
-          "note": "Niceee ! Sekarang waktunya untuk langkah yang selanjutnya",
-          "question": "Coba urutkan kode yang dibawah menjadi kode yang benar",
-          "choice": [
-            {
-              "index": 1,
-              "text": "Welcome To My Website"
-            },
-            {
-              "index": 2,
-              "text": "<body>"
-            },
-            {
-              "index": 3,
-              "text": "<html>"
-            },
-            {
-              "index": 4,
-              "text": "</body>"
-            },
-            {
-              "index": 4,
-              "text": "</html>"
-            }
-          ],
-          "answer": "32145"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "index": 8,
+    "type": 1,
+    "content": "Sekarang kita butuh menyediakan alamat tujuan, atau dapat dikenal dengan Uniform Resource Locator (URL)",
+    "image": "",
+    "code": ["<!doctype html>", "<html>", "<body>", "<a href=\"_\">Alamat tujuan</a>", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=50\">Alamat tujuan</a>"
+      }
+    ],
+    "note": "Oke Lanjut -->",
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=50"
+      }
+    ],
+    "answer": "1"
+  },
+  {
+    "index": 9,
+    "type": 0,
+    "image": "",
+    "content": "Bisakah kamu membuat atribut href dari awal?",
+    "code": ["<!doctype html>", "<html>", "<body>", "<a _ _ _>Alamat tujuan</a>", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">Alamat tujuan</a>"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5"
+      },
+      {
+        "index": 2,
+        "text": "="
+      },
+      {
+        "index": 3,
+        "text": "href"
+      }
+    ],
+    "answer": "321",
+    "note": "Simple bukan? Kita dapat menambahkan URL sesuka kita."
+  },
+  {
+    "index": 10,
+    "type": 0,
+    "image": "",
+    "content": "sekarang mari kita membuat satu link lagi untuk lebih memahaminya.",
+    "code": [
+      "<!doctype html>",
+      "<html>",
+      "<body>",
+      "_ _ =\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\"_ _ _",
+      "</body>",
+      "</html>"
+    ],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">Alamat kemana saja.</a>"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "Alamat kemana saja."
+      },
+      {
+        "index": 2,
+        "text": "href"
+      },
+      {
+        "index": 3,
+        "text": "<a"
+      },
+      {
+        "index": 4,
+        "text": "</a>"
+      },
+      {
+        "index": 5,
+        "text": ">"
+      }
+    ],
+    "answer": "32514",
+    "note": "Kamu baru saja membuat link!"
+  },
+  {
+    "index": 11,
+    "type": 1,
+    "image": "",
+    "content": "Kita juga dapat meurjuk pada file lokal. Link hanya bekerja ketika kita kita memiliki index.html pada satu folder yang sama.",
+    "code": ["<!doctype html>", "<html>", "<body>", "<a href=_>Alamt kemana saja</a>", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">Alamat kemana saja.</a>"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "index.html"
+      }
+    ],
+    "answer": "1",
+    "note": "Kita akan menggunakan file tipe ini pada saat kita mengerjakan projek kita sendiri."
+  },
+  {
+    "index": 12,
+    "type": 0,
+    "image": "",
+    "content": "Jika kita ingin menambahkan gambar pada website kita, kita memiliki tag untuk itu.",
+    "code": ["<!doctype html>", "<html>", "<body>", "_", "</body>", "</html>"],
+    "output": [
+      {
+        "type": ""
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "<a>"
+      },
+      {
+        "index": 2,
+        "text": "<img>"
+      }
+    ],
+    "answer": "2",
+    "note": "Nice!"
+  },
+  {
+    "index": 13,
+    "type": 1,
+    "image": "",
+    "content": "Seperti pada <br>, <img> adalah tag kosong, yang berarti tidak memilki tag penutup",
+    "code": ["<!doctype html>", "<html>", "<body>", "_", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<img>"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "<img></img>"
+      },
+      {
+        "index": 2,
+        "text": "<img>"
+      }
+    ],
+    "answer": "2",
+    "note": "Jika kita ingin memasukan gambar kita hanya perlu menggunakan <img> tanpa perlu menutupnya."
+  },
+  {
+    "index": 14,
+    "type": 0,
+    "image": "",
+    "content": "Karena <img> adalah tag kosong, kita butuh menggunakan attribute untuk mengarahkan pada gambar dengan kata src yang berarti source.",
+    "code": ["<!doctype html>", "<html>", "<body>", "<img _=\"\">", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": ""
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "c"
+      },
+      {
+        "index": 2,
+        "text": "s"
+      },
+      {
+        "index": 3,
+        "text": "r"
+      }
+    ],
+    "answer": "231",
+    "note": "Nice!"
+  },
+  {
+    "index": 15,
+    "type": 0,
+    "image": "",
+    "content": "Kita dapat menggunakan gambar lokal, yang berati kita dapat merujuk pada file gambar yang ada pada satu folder dengan halaman website.",
+    "code": ["<!doctype html>", "<html>", "<body>", "<img src=_>", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "image.png"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "\""
+      },
+      {
+        "index": 2,
+        "text": "image.png"
+      },
+      {
+        "index": 3,
+        "text": "\""
+      }
+    ],
+    "answer": "123",
+    "note": "Nice!"
+  },
+  {
+    "index": 16,
+    "type": 0,
+    "image": "",
+    "content": "Kita juga dapat menggunakan URL untuk merujuk pada gambar.",
+    "code": ["<!doctype html>", "<html>", "<body>", "<img _>", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "="
+      },
+      {
+        "index": 2,
+        "text": "\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\""
+      },
+      {
+        "index": 3,
+        "text": "src"
+      }
+    ],
+    "answer": "312",
+    "note": "Kita dapat menggunakan gambar yang kita mau disini.!"
+  },
+  {
+    "index": 17,
+    "type": 0,
+    "image": "",
+    "content": "Kita juga dapat menggunakan attribute untuk mengatur ukuran gambar. Sebagai contoh attribut width yang mengatur lebar gambar.",
+    "code": [
+      "<!doctype html>",
+      "<html>",
+      "<body>",
+      "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" _=\"100\">",
+      "</body>",
+      "</html>"
+    ],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widhth=\"100\">"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "h"
+      },
+      {
+        "index": 2,
+        "text": "d"
+      },
+      {
+        "index": 3,
+        "text": "t"
+      },
+      {
+        "index": 4,
+        "text": "w"
+      },
+      {
+        "index": 5,
+        "text": "i"
+      }
+    ],
+    "answer": "45231",
+    "note": "Kita baru saja mengubah kelebaran gambar pada browser"
+  },
+  {
+    "index": 18,
+    "type": 0,
+    "image": "",
+    "content": "Jika kita ingin mengatur ketinggian gambar kita dapat menggunakan height.",
+    "code": [
+      "<!doctype html>",
+      "<html>",
+      "<body>",
+      "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widht=\"100\" _>",
+      "</body>",
+      "</html>"
+    ],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widhth=\"100\", heigth=\"100\">"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "70"
+      },
+      {
+        "index": 2,
+        "text": "height"
+      },
+      {
+        "index": 3,
+        "text": "="
+      }
+    ],
+    "answer": "231",
+    "note": "Sekarang kita dapat mengatur ketinggian gambar."
+  },
+  {
+    "index": 19,
+    "type": 0,
+    "image": "",
+    "content": "Ada tag lain yang sangat berguna yang dapat kita gunakan untuk menampilkan gambar dari web lain.",
+    "code": [],
+    "output": [],
+    "question": "",
+    "choice": [],
+    "answer": "",
+    "note": ""
+  },
+  {
+    "index": 20,
+    "type": 0,
+    "image": "",
+    "content": "Kita dapat menggunakan tag <iframe>",
+    "code": ["<!doctype html>", "<html>", "<body>", "<h1>Website saya</h1>", "_", "</body>", "</html>"],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<iframe></iframe>"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "<iframe>"
+      },
+      {
+        "index": 2,
+        "text": "</iframe>"
+      }
+    ],
+    "answer": "12",
+    "note": "Kita dapat menggunakan <iframe> untuk menambahkan halaman web atau sesuatu dari suatu halaman web."
+  },
+  {
+    "index": 2,
+    "type": 0,
+    "image": "",
+    "content": "Contoh yang baik untuk memasukan video dalam halaman web adalah menggunakan youtube dan cara yang mudah untuk melakukannya adalah dengan iframe",
+    "code": [
+      "<!doctype html>",
+      "<html>",
+      "<body>",
+      "<h1>Website saya</h1>",
+      "<iframe _></iframe>",
+      "</body>",
+      "</html>"
+    ],
+    "output": [
+      {
+        "type": "script.js",
+        "text": ""
+      },
+      {
+        "type": "browser",
+        "text": "<iframe src=\"https://www.youtube.com/watch?v=k32voqQhODc\"></iframe>"
+      }
+    ],
+    "question": "",
+    "choice": [
+      {
+        "index": 1,
+        "text": "="
+      },
+      {
+        "index": 2,
+        "text": "src"
+      },
+      {
+        "index": 3,
+        "text": "\"https://www.youtube.com/watch?v=k32voqQhODc\""
+      }
+    ],
+    "answer": "213",
+    "note": "Nice!"
+  }
+]
