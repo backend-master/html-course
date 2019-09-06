@@ -412,6 +412,2747 @@
           "answer": "32145"
         }
       ]
+    },
+    {
+      "index": 2,
+      "title": "Common Tags",
+      "total": 21,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Tag adalah blok untuk membangunan situs web dan ada banyak yang bisa kita telusuri.Oke mari kita periksa",
+          "image": "./assets/section-2-tag.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke Lanjut -->",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "content": "Seperti apa yang sudah kita lihat, <html> berisikan kode HTML. Kita juga menemukan tag yang fungsinya berisi text untuk ditampilkan pada web browser. \nApa kamu ingat tag yang mana itu ?",
+          "code": ["<html>", "__", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Nice! tag <body> berisikan content dari website. Kita akan melihat kenapa kita membutuhkan tag tag yang lain di dalam tag yang <body>",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "b"
+            },
+            {
+              "index": 2,
+              "text": "y"
+            },
+            {
+              "index": 3,
+              "text": ">"
+            },
+            {
+              "index": 4,
+              "text": "o"
+            },
+            {
+              "index": 5,
+              "text": "<"
+            },
+            {
+              "index": 6,
+              "text": "d"
+            }
+          ],
+          "answer": "514623"
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "content": "Kita membutuhkan beberapa tag, kenapa? Ayo kita lihat jika kita menuliskan sebuah lirik lagu langsung di dalam tag <body> tanpa adanya tag yang lain",
+          "code": [
+            "<html>",
+            "<body>",
+            "Seperti popcorn yang meletup-letup",
+            "Kata kata suka menari-nari",
+            "Wajahmu Suaramu",
+            "Selalu ku ingat-ingat",
+            "membuatku jadi tergila-gila",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body>Seperti popcorn yang meletup-letup Kata kata suka menari-nari Wajahmu Suaramu Selalu ku ingat-ingat membuatku jadi tergila-gila </body></html>"
+            }
+          ],
+          "note": "Kamu lihat bagaimana apa yang kita tulis akan tampil dalam sebaris, Itu tidak akan membuat website yang kita bangun menjadi bagus bukan ?",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "content": "Dan jika kamu menambahkan spasi ataupun enter di dalam tag <body> tanpa ada tag lain maka browser tetap akan menampilkan dalam satu baris",
+          "code": [
+            "<html>",
+            "<body>",
+            "Seperti popcorn yang meletup-letup",
+            " ",
+            " ",
+            " ",
+            "membuatku jadi tergila-gila",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body>Seperti popcorn yang meletup-letup membuatku jadi tergila-gila</body></html>"
+            }
+          ],
+          "note": "Nah kan! Kita akan menggunakan tag tag yang lain untuk menampilkan lirik di dalam website yang akan kita bangun",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 5,
+          "type": 0,
+          "content": "Ayo kita tambahkan Heading untuk memberitahu pengunjung apa bagian selanjutnya. Kita akan melakukan dengan mudah dengan menggunakan heading tag yaitu <h1>",
+          "code": [
+            "<html>",
+            "<body>",
+            "__ Seperti popcorn yang meletup-letup __",
+            "Kata kata suka menari-nari",
+            "Wajahmu Suaramu",
+            "Selalu ku ingat-ingat",
+            "membuatku jadi tergila-gila",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body><h1>Seperti popcorn yang meletup-letup</h1> Kata kata suka menari-nari Wajahmu Suaramu Selalu ku ingat-ingat membuatku jadi tergila-gila </body></html>"
+            }
+          ],
+          "note": "Whooah, Sekarang orang-orang akan tahu apa yang akan mereka baca",
+          "question": "Tanda __ dapat diganti dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<h1>"
+            },
+            {
+              "index": 2,
+              "text": "</h1>"
+            }
+          ],
+          "answer": "12"
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "content": "Apa kamu lihat angka 1 di dalam <h1> ? 1 disana adalah sebagai tanda Heading untuk ukuran tulisan karena masih banyak type heading yang lain. \nAyo kita tambahkan tambahan heading tag secara Ascending dan lihat apa yang aka terjadi",
+          "code": [
+            "<html>",
+            "<body>",
+            "__ Seperti popcorn yang meletup-letup </h1>",
+            "__ Kata kata suka menari-nari </h2>",
+            "__ Wajahmu Suaramu </h3>",
+            "Selalu ku ingat-ingat",
+            "membuatku jadi tergila-gila",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body><h1>Seperti popcorn yang meletup-letup</h1> <h2>Kata kata suka menari-nari</h2> <h3>Wajahmu Suaramu</h3> Selalu ku ingat-ingat membuatku jadi tergila-gila </body></html>"
+            }
+          ],
+          "note": "Mantap Benar! Lihat bagaimana <h1> adalah Heading yang terbesar? Itu artinya 1 adalah level yang paling tinggi",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</h2>"
+            },
+            {
+              "index": 2,
+              "text": "</h1>"
+            },
+            {
+              "index": 3,
+              "text": "</h3>"
+            }
+          ],
+          "answer": "213"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Ayo kita tambahkan tag pembuka untuk heading mulai dari awal",
+          "code": [
+            "<html>",
+            "<body>",
+            "__ __ __ __Seperti popcorn yang meletup-letup</h1>",
+            "Kata kata suka menari-nari",
+            "Wajahmu Suaramu",
+            "Selalu ku ingat-ingat",
+            "membuatku jadi tergila-gila",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body><h1>Seperti popcorn yang meletup-letup</h1> Kata kata suka menari-nari Wajahmu Suaramu Selalu ku ingat-ingat membuatku jadi tergila-gila </body></html>"
+            }
+          ],
+          "note": "Sempurna~ Selama kita menggunakan tag pembuka <h1> dan ditutup </h1>, itu akan membuat apa yang diantaranya menjadi Heading yang paling besar.",
+          "question": "Tanda __ dapat diurutkan dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": ">"
+            },
+            {
+              "index": 2,
+              "text": "<"
+            },
+            {
+              "index": 3,
+              "text": "h"
+            },
+            {
+              "index": 4,
+              "text": "1"
+            }
+          ],
+          "answer": "2341"
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "content": "Kita juga dapat membagi baris di dalam paragraf, paragraf ini sangatlah sederhana",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "__",
+            "Raindrops on roses",
+            "whiskers on kittens",
+            "Bright copper kettles",
+            "__",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body><p> Raindrops on roses \n whiskers on kittens \n Bright copper kettles </p></body></html>"
+            }
+          ],
+          "note": "Kita baru saja membuat sebuah paragraf",
+          "question": "Coba urutkan dengan benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</p>"
+            },
+            {
+              "index": 2,
+              "text": "<p>"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "content": "Paragraph sangat mudah saat ingin membagi dalam beberapa baris. Mari membuat dua paragraf dan masing-masing dibuat dua baris",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "__",
+            "Raindrops on roses",
+            "whiskers on kittens",
+            "__",
+            "__",
+            "Bright copper kettles",
+            "Warm woolen mittens",
+            "__",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body><p> Raindrops on roses \n whiskers on kittens <p> </p> Bright copper kettles \n Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Keren! kita membuat lebih dari satu paragraph",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</p>"
+            },
+            {
+              "index": 2,
+              "text": "<p>"
+            },
+            {
+              "index": 3,
+              "text": "</p>"
+            },
+            {
+              "index": 4,
+              "text": "<p>"
+            }
+          ],
+          "answer": "2143"
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "content": "Kita membuat heading dan dua paragraf sebelumnya, numun sepertinya butuh sedikit penambahan. Mari gunakan beberapa line breaks",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on roses <br> whiskers on kittens <p> </p> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Maru Lanjut",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ""
+            },
+            {
+              "index": 2,
+              "text": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "content": "Kita menambahkan paragraf dalam beberapa baris menggunakan line breaks dengan tag <br>",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on roses__",
+            "whiskers on kittens",
+            "</p>",
+            "<p>",
+            "Bright copper kettles__",
+            "Warm woolen mittens",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on roses <br> whiskers on kittens <p> </p> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Cantik! Terlihat makin bagus",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<br>"
+            },
+            {
+              "index": 2,
+              "text": "<br>"
+            }
+          ],
+          "answer": "12"
+        },
+        {
+          "index": 12,
+          "type": 1,
+          "content": "<br> tidak punya tag penutup karena ini adalah tag kosong atau tidak memiliki konten, namun tetap dibutuhkan dalam struktur halaman website",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on roses<br>",
+            "whiskers on kittens",
+            "</p>",
+            "<p>",
+            "Bright copper kettles__",
+            "Warm woolen mittens",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on roses <br> whiskers on kittens <p> </p> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Tepat! Kita bisa menggunakan tag <br> sebanyak yang kita mau, namun tetap jangan menutup nya",
+          "question": "Pilih salah satu jawaban yang benar : ",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</br>"
+            },
+            {
+              "index": 2,
+              "text": "<br>"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "content": "Bagaimana jika kita ingin penekanan (teks miring) sesuatu pada teks atau paragraf? Yaa, tentu ada juga tag nya tersendiri",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on __roses__<br>",
+            "whiskers on kittens<br>",
+            "Bright copper kettles<br>",
+            "Warm woolen mittens",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on kittens <br> Bright copper kettles <br> Warm woolen mittens </p></body></html>"
+            }
+          ],
+          "note": "Kerja bagus! Kita sudah menambahkan penenkanan (teks miring) untuk kata yang dianggap penting",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</em>"
+            },
+            {
+              "index": 2,
+              "text": "<em>"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "content": "Ada juga tag untuk menebalkan teks, yaitu <strong> tag",
+          "code": [
+            "<html>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on __kittens__",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html><body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Itu dia! kita menggunakan tag <strong> untuk menebalkan teks",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</strong>"
+            },
+            {
+              "index": 2,
+              "text": "<strong>"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 15,
+          "type": 0,
+          "content": "Kita sudah mencoba beberapa tag ditampilkan pada halaman wesite. Tetapi ada suatu tag yang tidak akan tampil meskipun tag ini digunakan, yaitu tag <head>",
+          "code": [
+            "<html>",
+            "<body>",
+            "__",
+            "</head>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Itu dia! kita menggunakan tag <strong> untuk menebalkan teks",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "a"
+            },
+            {
+              "index": 2,
+              "text": "e"
+            },
+            {
+              "index": 3,
+              "text": "h"
+            },
+            {
+              "index": 4,
+              "text": "d"
+            }
+          ],
+          "answer": "3214"
+        },
+        {
+          "index": 16,
+          "type": 0,
+          "content": "Kita sudah mencoba beberapa tag ditampilkan pada halaman wesite. Tetapi ada suatu tag yang tidak akan tampil meskipun tag ini digunakan, yaitu tag <head>",
+          "code": [
+            "<html>",
+            "__",
+            "</head>",
+            "<body>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Sempurna! Mari kita bereksperimen dengan tag <head> ini",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "a"
+            },
+            {
+              "index": 2,
+              "text": "e"
+            },
+            {
+              "index": 3,
+              "text": "h"
+            },
+            {
+              "index": 4,
+              "text": "d"
+            }
+          ],
+          "answer": "3214"
+        },
+        {
+          "index": 17,
+          "type": 0,
+          "content": "Tag <head> digunakan untuk menambahkan informasi khusus seperti title website maupun style.",
+          "image": "./assets/section-2-head.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke! Lanjut yuk",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 18,
+          "type": 0,
+          "content": "Mari kita tambahkan title pada website kita. Untuk itu kita membutuhkan tag <title> dan menulisnya didalam tag <head>",
+          "code": [
+            "<html>",
+            "__",
+            "__My Page__",
+            "__",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on <strong>kittens</strong>",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<html> <head><title>My Page</title></head> <body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Itu dia! Sekarang website kita sudah memiliki title-nya",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</head>"
+            },
+            {
+              "index": 2,
+              "text": "</title>"
+            },
+            {
+              "index": 3,
+              "text": "<head>"
+            },
+            {
+              "index": 4,
+              "text": "<title>"
+            }
+          ],
+          "answer": "3421"
+        },
+        {
+          "index": 19,
+          "type": 3,
+          "content": "Mari sedikit mencoba tantangan. Bisakan kamu mengurutkan baris kode ini dengan benar?",
+          "code": [
+            "<head>",
+            "</html>",
+            "<title>My Page</title>",
+            "</head>",
+            "<html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yep! Urutanya sangat masuk akal",
+          "question": "Coba urutkan jawaban yang benar;",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 20,
+          "type": 0,
+          "content": "Ada suatu hal yang cukup penting dalam sebuah website yang mungkin sering dihiraukan, yaitu: doctype",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Baiklah! Lanjut sedikit lagi ya",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 21,
+          "type": 1,
+          "content": "doctype memberi tahu browser versi HTML berapa yang kita gunakan.",
+          "code": [
+            "__",
+            "<html>",
+            "<head>",
+            "<title>My Page</title>",
+            "</head>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on <strong>kittens</strong>",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <head><title>My Page</title></head> <body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Mantap! Saat kita tidak mendefinisikan doctype, browser akan menebaknya sendiri yang mana ini hal ini bukanlah hal yang bagus",
+          "question": "Coba pilih jawaban yang ada;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<!doctype html>"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 22,
+          "type": 0,
+          "content": "Untuk mengatur doctype, kita perlu mengawalinya dengan '!', kemuduan diikuti dengan 'doctype' dan 'html', Coba urutkan!",
+          "code": [
+            "__",
+            "<html>",
+            "<head>",
+            "<title>My Page</title>",
+            "</head>",
+            "<body>",
+            "<h1>My favorite Things</h1>",
+            "<p>",
+            "Raindrops on <em>roses</em><br>",
+            "whiskers on <strong>kittens</strong>",
+            "</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <head><title>My Page</title></head> <body> <h1>My Favorite Things</h1> <p> Raindrops on <em>roses</em> <br> whiskers on <strong>kittens</strong> </p></body></html>"
+            }
+          ],
+          "note": "Keren! Sekarang websitenya telah sempurna",
+          "question": "Coba urutka jawaban yang benar;",
+          "choice": [
+            {
+              "index": 1,
+              "text": "!"
+            },
+            {
+              "index": 2,
+              "text": "<"
+            },
+            {
+              "index": 3,
+              "text": ">"
+            },
+            {
+              "index": 4,
+              "text": "doctype html"
+            }
+          ],
+          "answer": "2143"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "title": "Links and Multimedia",
+      "total": 21,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Untuk lebih jelas lagi, file yang ditulis dengan HTML adalah webpages. Ketika file file tersebut bergabung menjadi satu maka itu disebut dengan website",
+          "image": "./assets/section-3-file.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke Lanjut -->",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "content": "Dan itu adalah link atau hyperlinks. Mereka yang menggabungkan webpage dan menghubungkannya menjadi website",
+          "image": "./assets/section-3-chain.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Okee Lanjut -->",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "content": "Jadi, ketimbang harus mengetik halaman web atau alamat situs web ke dalam browser web, link dapat membawa kamu ke sana dengan satu klik sederhana",
+          "image": "./assets/section-3-webpage.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Okee Lanjut lagi -->",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "content": "Tag link sangat singkat dan simple: <a>. Diantara tag link tersebut kita hanya perlu menuliskan sesuatu agar dapat menjadi link. ",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__ Ayo pergi kesana __",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html><html><body>__ Ayo pergi kesana __</body></html>"
+            }
+          ],
+          "note": "Nice! Mudah bukan ? Web Browser akan menampilkan apapun diantara tag <a> sebagai link",
+          "question": "Tanda __ dapat diganti dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<a>"
+            },
+            {
+              "index": 2,
+              "text": "</a>"
+            }
+          ],
+          "answer": "12"
+        },
+        {
+          "index": 5,
+          "type": 0,
+          "content": "Untuk membuat link bekerja, kita harus menambahkan alamat tujuan. Untuk itu kita akan menggunakan sesuatu yang biasa kita kenal dengan attribute",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke Lanjut -->",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 6,
+          "type": 1,
+          "content": "Attributes menyediakan informasi tambahan untuk sebuah tag. Dan kita menggunakan attributes di dalam opening tags. \nAttribute yang kita butuhkan untuk link disebut dengan href",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<a __> Ayo pergi kesana </a>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html><html><body><a href>Ayo pergi kesana</a></body></html>"
+            }
+          ],
+          "note": "Sipp. Kita akan menggunakan attribute href untuk menambakan alamat tujuan pada link kita.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "href"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Attribute href membutuhkan nilai. Untuk itu kalau kita ingin menambahkan nilai/alamat untuk href harus menggunakan equals sign '=' dan quotation marks ''",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<a href__ __> Ayo pergi kesana </a>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html><html><body><a href=\"\">Ayo pergi kesana</a></body></html>"
+            }
+          ],
+          "note": "Sipp, Itu berarti href akan menampung nilai apapun yang ada didalam quoation marks atau tanda \"\"",
+          "question": "Tanda __ dapat diurutkan dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "\"\""
+            }
+          ],
+          "answer": "12"
+        },
+        {
+          "index": 8,
+          "type": 1,
+          "content": "Sekarang kita butuh menyediakan alamat tujuan, atau dapat dikenal dengan Uniform Resource Locator (URL)",
+          "image": "",
+          "code": ["<!doctype html>", "<html>", "<body>", "<a href=\"_\">Alamat tujuan</a>", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=50\">Alamat tujuan</a>"
+            }
+          ],
+          "note": "Oke Lanjut -->",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=50"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "image": "",
+          "content": "Bisakah kamu membuat atribut href dari awal?",
+          "code": ["<!doctype html>", "<html>", "<body>", "<a _ _ _>Alamat tujuan</a>", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">Alamat tujuan</a>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5"
+            },
+            {
+              "index": 2,
+              "text": "="
+            },
+            {
+              "index": 3,
+              "text": "href"
+            }
+          ],
+          "answer": "321",
+          "note": "Simple bukan? Kita dapat menambahkan URL sesuka kita."
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "image": "",
+          "content": "sekarang mari kita membuat satu link lagi untuk lebih memahaminya.",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "_ _ =\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\"_ _ _",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">Alamat kemana saja.</a>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Alamat kemana saja."
+            },
+            {
+              "index": 2,
+              "text": "href"
+            },
+            {
+              "index": 3,
+              "text": "<a"
+            },
+            {
+              "index": 4,
+              "text": "</a>"
+            },
+            {
+              "index": 5,
+              "text": ">"
+            }
+          ],
+          "answer": "32514",
+          "note": "Kamu baru saja membuat link!"
+        },
+        {
+          "index": 11,
+          "type": 1,
+          "image": "",
+          "content": "Kita juga dapat meurjuk pada file lokal. Link hanya bekerja ketika kita kita memiliki index.html pada satu folder yang sama.",
+          "code": ["<!doctype html>", "<html>", "<body>", "<a href=_>Alamt kemana saja</a>", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<a href=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">Alamat kemana saja.</a>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "index.html"
+            }
+          ],
+          "answer": "1",
+          "note": "Kita akan menggunakan file tipe ini pada saat kita mengerjakan projek kita sendiri."
+        },
+        {
+          "index": 12,
+          "type": 0,
+          "image": "",
+          "content": "Jika kita ingin menambahkan gambar pada website kita, kita memiliki tag untuk itu.",
+          "code": ["<!doctype html>", "<html>", "<body>", "_", "</body>", "</html>"],
+          "output": [
+            {
+              "type": ""
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<a>"
+            },
+            {
+              "index": 2,
+              "text": "<img>"
+            }
+          ],
+          "answer": "2",
+          "note": "Nice!"
+        },
+        {
+          "index": 13,
+          "type": 1,
+          "image": "",
+          "content": "Seperti pada <br>, <img> adalah tag kosong, yang berarti tidak memilki tag penutup",
+          "code": ["<!doctype html>", "<html>", "<body>", "_", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<img>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<img></img>"
+            },
+            {
+              "index": 2,
+              "text": "<img>"
+            }
+          ],
+          "answer": "2",
+          "note": "Jika kita ingin memasukan gambar kita hanya perlu menggunakan <img> tanpa perlu menutupnya."
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "image": "",
+          "content": "Karena <img> adalah tag kosong, kita butuh menggunakan attribute untuk mengarahkan pada gambar dengan kata src yang berarti source.",
+          "code": ["<!doctype html>", "<html>", "<body>", "<img _=\"\">", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "c"
+            },
+            {
+              "index": 2,
+              "text": "s"
+            },
+            {
+              "index": 3,
+              "text": "r"
+            }
+          ],
+          "answer": "231",
+          "note": "Nice!"
+        },
+        {
+          "index": 15,
+          "type": 0,
+          "image": "",
+          "content": "Kita dapat menggunakan gambar lokal, yang berati kita dapat merujuk pada file gambar yang ada pada satu folder dengan halaman website.",
+          "code": ["<!doctype html>", "<html>", "<body>", "<img src=_>", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "image.png"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "\""
+            },
+            {
+              "index": 2,
+              "text": "image.png"
+            },
+            {
+              "index": 3,
+              "text": "\""
+            }
+          ],
+          "answer": "123",
+          "note": "Nice!"
+        },
+        {
+          "index": 16,
+          "type": 0,
+          "image": "",
+          "content": "Kita juga dapat menggunakan URL untuk merujuk pada gambar.",
+          "code": ["<!doctype html>", "<html>", "<body>", "<img _>", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\">"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\""
+            },
+            {
+              "index": 3,
+              "text": "src"
+            }
+          ],
+          "answer": "312",
+          "note": "Kita dapat menggunakan gambar yang kita mau disini.!"
+        },
+        {
+          "index": 17,
+          "type": 0,
+          "image": "",
+          "content": "Kita juga dapat menggunakan attribute untuk mengatur ukuran gambar. Sebagai contoh attribut width yang mengatur lebar gambar.",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" _=\"100\">",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widhth=\"100\">"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "h"
+            },
+            {
+              "index": 2,
+              "text": "d"
+            },
+            {
+              "index": 3,
+              "text": "t"
+            },
+            {
+              "index": 4,
+              "text": "w"
+            },
+            {
+              "index": 5,
+              "text": "i"
+            }
+          ],
+          "answer": "45231",
+          "note": "Kita baru saja mengubah kelebaran gambar pada browser"
+        },
+        {
+          "index": 18,
+          "type": 0,
+          "image": "",
+          "content": "Jika kita ingin mengatur ketinggian gambar kita dapat menggunakan height.",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widht=\"100\" _>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widhth=\"100\", heigth=\"100\">"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "70"
+            },
+            {
+              "index": 2,
+              "text": "height"
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "answer": "231",
+          "note": "Sekarang kita dapat mengatur ketinggian gambar."
+        },
+        {
+          "index": 19,
+          "type": 0,
+          "image": "",
+          "content": "Ada tag lain yang sangat berguna yang dapat kita gunakan untuk menampilkan gambar dari web lain.",
+          "code": [],
+          "output": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "note": ""
+        },
+        {
+          "index": 20,
+          "type": 0,
+          "image": "",
+          "content": "Kita dapat menggunakan tag <iframe>",
+          "code": ["<!doctype html>", "<html>", "<body>", "<h1>Website saya</h1>", "_", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<iframe></iframe>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<iframe>"
+            },
+            {
+              "index": 2,
+              "text": "</iframe>"
+            }
+          ],
+          "answer": "12",
+          "note": "Kita dapat menggunakan <iframe> untuk menambahkan halaman web atau sesuatu dari suatu halaman web."
+        },
+        {
+          "index": 21,
+          "type": 0,
+          "image": "",
+          "content": "Contoh yang baik untuk memasukan video dalam halaman web adalah menggunakan youtube dan cara yang mudah untuk melakukannya adalah dengan iframe",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<h1>Website saya</h1>",
+            "<iframe _></iframe>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<iframe src=\"https://www.youtube.com/watch?v=k32voqQhODc\"></iframe>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "src"
+            },
+            {
+              "index": 3,
+              "text": "\"https://www.youtube.com/watch?v=k32voqQhODc\""
+            }
+          ],
+          "answer": "213",
+          "note": "Nice!"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "Styles",
+      "total": 17,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "image": "./assets/70-702066_bleistift-lineal-symbol-pencil-and-ruler-clipart.png",
+          "content": "Waktunya untuk membuat semua lebih indah. Dalam bab ini, kita akan menambahkan CSS kedalam beberapa tag untuk mengubah bagaimana semuanya terlihat.",
+          "code": [],
+          "output": [],
+          "note": "",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "image": "",
+          "content": "Apakah anda ingat atribut? Atribut hanya menyediakan informasi tambahan pada suatu tags.",
+          "code": [],
+          "output": [],
+          "note": "",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "image": "",
+          "content": "Ternyata, setiap tag HTML mempunyai atribut yang dapat digunakan untuk merubah tampilan.",
+          "code": ["<!doctype html>", "<html>", "<body _=\"\">", "Saya berada diantara dua tag.", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "Browser",
+              "text": ["Saya berada diantara dua tag."]
+            },
+            {
+              "type": "index.html",
+              "text": ""
+            }
+          ],
+          "question": [],
+          "choice": [
+            {
+              "index": 1,
+              "text": "e"
+            },
+            {
+              "index": 2,
+              "text": "s"
+            },
+            {
+              "index": 3,
+              "text": "y"
+            },
+            {
+              "index": 4,
+              "text": "l"
+            },
+            {
+              "index": 5,
+              "text": "t"
+            }
+          ],
+          "answer": "25341",
+          "note": ""
+        },
+        {
+          "index": 4,
+          "type": 1,
+          "image": "",
+          "content": "Yang perlu kita lakukan sekarang adalah menambahkan sebuah nilai kedalam atibut style. Bagaimana kita dapat mengubah warna background pada seksi <body>?",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body style=\"_\">",
+            "Saya berada didalam warna abu-abu.",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": "Saya berada didalam warna abu-abu."
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": "backround-color:gray;"
+            }
+          ],
+          "answer": "1",
+          "note": "Tidak susah bukan?"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "image": "",
+          "content": "Style memiliki rumus yang sederhana. Kita memulai dengan property, seperti background-color",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body style=\"_:gray\">",
+            "Saya berada didalam warna abu-abu.",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": "<body style=\"backround-color:gray\">Saya berada didalam warna abu-abu.</body>"
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": "backround-color"
+            }
+          ],
+          "answer": "1",
+          "note": "Itulah cara kita untuk meme=beri tahu browser apa yang ingin kita ubah."
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "image": "",
+          "content": "Kita kemudian menambahkan tanda titik dua (:) yang diikuti oleh bagaimana kita ingin mengubah propertinya. Dalam kasus ini kita ingin merubah warna menjadi abu-abu.",
+          "code": [
+            "<!doctype html>",
+            "<body style=\"background-color_ _\">",
+            "Saya berada didalam warna abu-abu.",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": "Saya berada didalam warna abu-abu."
+            },
+            {
+              "type": "Browser",
+              "text": ""
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": "gray"
+            },
+            {
+              "index": 2,
+              "text": ":"
+            }
+          ],
+          "answer": "21",
+          "note": "Seperti yang kita ketahui, kita dapat merubah warna menjadi warna yang lain sasuai yang kita inginkan."
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Atribut style menggunakan CSS. Perlu diingat bahwa statement CSS memerlukan titik-koma (;) diakhir.",
+          "image": "",
+          "code": [
+            "<!doctype html>",
+            "<body style=\"background-color=_\">",
+            "Saya berada didalam warna abu-abu.",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": ";"
+            },
+            {
+              "index": 2,
+              "text": "backround-color:gray"
+            }
+          ],
+          "answer": "21",
+          "note": "Kamu sudah mulai mengerti."
+        },
+        {
+          "index": 8,
+          "type": 1,
+          "image": "",
+          "content": "Mari menggunakan atribut style dengan menggunakan <p> untuk mengubah warna teks menjadi merah.",
+          "code": ["<!doctype html>", "<body>", "<p> style=\"_:red;\"> Saya berwarna merah </p>", "</body>", "</html>"],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": "<p> style=\"color:red;\"> Saya berwarna merah </p>"
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": ":"
+            },
+            {
+              "index": 2,
+              "text": "color"
+            },
+            {
+              "index": 3,
+              "text": "red"
+            },
+            {
+              "index": 4,
+              "text": ";"
+            }
+          ],
+          "answer": "2134",
+          "note": "Seperti sebelumnya, kita menulis nama ditambahkan titik dua dan menambahkan nilainya."
+        },
+        {
+          "index": 9,
+          "type": 1,
+          "image": "",
+          "content": "Karena adanya titik-koma kita dapat menggunakan lebih dari satu.",
+          "code": [
+            "<!doctype html>",
+            "<body>",
+            "<p> Saya font biasa </p>",
+            "<p> style=\"color:red; _\"> Saya berwarna merah </p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": ["Saya font biasa", "Saya berwarna merah"]
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "font-family:arial"
+            }
+          ],
+          "answer": "1",
+          "note": "Kita menambahkan berapapun seperti yang kita mau, selama kita menggunakan titik-koma pada akhir setiap statement."
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "image": "",
+          "content": "mari mencoba sesuatu yang baru. Kali ini, kita akan mengubah ukuran font dari suatu judul dengan menggunakan font-size dan nilainya 26px.",
+          "code": [
+            "<!doctype html>",
+            "<body>",
+            "<h1 style_font-size:26px>Saya adalah tulisan yang diperhitungkan</h1>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": ";\""
+            },
+            {
+              "index": 2,
+              "text": "\""
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "question": "",
+          "answer": "321",
+          "note": "Saat memasukan suatu value kita menggunakan tanda sama dengan dan tanda kutip. Setelah menambahkan value kita mengakhirinya dengan tanda titik-koma dan tanda kutip."
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "image": "",
+          "content": "px adalah kependekan dari pixel dan merupakan cara untuk mengukur besarnya suatu object yang terlihat pada layar.",
+          "code": [
+            "<!doctype html>",
+            "<body>",
+            "<h1 style=font-size:26px>Saya adalah tulisan yang diperhitungkan</h1>",
+            "<p style=\"font-size:_;\">Semua orang dapat membaca saya</p>",
+            "<p style=\"font-szie:4px;>Ini adalah pilihan yang buruk</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": [
+                "<h1 style=font-size:26px>Saya adalah tulisan yang diperhitungkan</h1><p style=\"font-size:13px;\">Semua orang dapat membaca saya</p><p style=\"font-szie:4px;>Ini adalah pilihan yang buruk</p>"
+              ]
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": "px"
+            },
+            {
+              "index": 2,
+              "text": "13"
+            }
+          ],
+          "question": "",
+          "answer": "21",
+          "note": "Seperti yang kita lihat, saat kita memebuat website kita sendiri, kita dapat menggunakan px tidak hanya untuk text."
+        },
+        {
+          "index": 12,
+          "type": 0,
+          "image": "",
+          "content": "Terkadang kita membutuhkan judul atau paragraph dengan format 'centered'. Kabar baiknya ada property yang mengaturnya yang dapat kita kenal dengan text-align.",
+          "code": [
+            "<!doctype html>",
+            "<body>",
+            "<h1 style=\"_:center;\">Saya adalah pusat perhatian</h1>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": "<h1 style=\"text-align:center;\">Saya adalah pusat perhatian</h1>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "text"
+            },
+            {
+              "index": 2,
+              "text": "align"
+            },
+            {
+              "index": 3,
+              "text": "-"
+            }
+          ],
+          "answer": "132",
+          "note": "Seperti halnya dengan property yang lain, text-align terdiri dari dua kata yang disambung dengan tanda -"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "image": "",
+          "content": "Untuk mensejajarkan tulisan ditengah, kita menggunakan kata center sebagai value.",
+          "code": [
+            "<!doctype html>",
+            "<body>",
+            "<h1 style=\"text-align:_\">Saya berada ditengah perhatian</h1>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": "<h1 style=\"text-align:center\">Saya berada ditengah perhatian</h1>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "r"
+            },
+            {
+              "index": 2,
+              "text": "t"
+            },
+            {
+              "index": 3,
+              "text": "c"
+            },
+            {
+              "index": 4,
+              "text": "e"
+            },
+            {
+              "index": 5,
+              "text": "n"
+            },
+            {
+              "index": 6,
+              "text": "e"
+            }
+          ],
+          "answer": "345261",
+          "note": "Benar!"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "image": "",
+          "content": "Sejauh ini kita telah mengganti style pada setiap tag satu per satu. Kita juga dapat memishakan dan memberi style yang berbeda pada HTML.",
+          "code": "",
+          "output": [],
+          "choice": "",
+          "question": "",
+          "answer": "",
+          "note": ""
+        },
+        {
+          "index": 15,
+          "type": 0,
+          "image": "",
+          "content": "Jika kita ingin mengelompokan berbagai kata dan ingin mengubah warna mereka, kita dapat menggunakan tag <span>",
+          "code": [
+            "<!doctype html>",
+            "<body>",
+            "<h1>A familiar story</h1>",
+            "<p>A _ long time ago _ in a galaxy far, far away...</p>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "index.html",
+              "text": "<h1>A familiar story</h1><p>A <span style=\"color:red;\">long time ago </span>in a galaxy far, far away...</p>"
+            }
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</span>"
+            },
+            {
+              "index": 2,
+              "text": "<span style=\"color:red;\">"
+            }
+          ],
+          "answer": "21",
+          "note": "Setiap kali kita ingin merubah sesuatu dalam suatu tag, kita dapat menggunakan <span>."
+        },
+        {
+          "index": 16,
+          "type": 0,
+          "image": "",
+          "content": "Ketika kita ingin mengelompokan tag dan mengubah stylenya, kita dapat menggunakan <div>.",
+          "code": [
+            "<!doctype html>",
+            "<body>",
+            "_ _ = \"color:yellow;background-color:black;text-align:center;\" _",
+            "<h1>A familiar story</h1>",
+            "<p>A long time ago in a galaxy far, far away<br>...</p>",
+            "_",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "index.html",
+              "text": ""
+            },
+            {
+              "type": "Browser",
+              "text": "<div style=\"color:yellow;background-color:black;text-align:center;\"><h1>A familiar story</h1><p>A long time ago in a galaxy far, far away<br>...</p></div>"
+            }
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": "style"
+            },
+            {
+              "index": 2,
+              "text": "<div"
+            },
+            {
+              "index": 3,
+              "text": ">"
+            },
+            {
+              "index": 4,
+              "text": "</div>"
+            }
+          ],
+          "answer": "2134",
+          "note": "Kita dapat melihat bagaimana <div> dapat membungkus berbagai tag didalamnya."
+        },
+        {
+          "index": 17,
+          "type": 1,
+          "image": "",
+          "content": "<span> dan <div> sangat baik digunakan pada saat memakai CSS untuk style website anda. Kita akan membahas lebih jauh nanti pada saat kita memakai keduanya jika menggunakan file yang berbeda.",
+          "code": [],
+          "output": [],
+          "choice": [],
+          "question": "",
+          "answer": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "Lists",
+      "total": 15,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Link sangat bagus untuk menhubungkan website satu sama lain, juga bagus untuk menghubungkan halaman web satu dengan yang lain",
+          "image": "./assets/section-5-link.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Bagus! Mari lanjutkan",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ""
+            },
+            {
+              "index": 2,
+              "text": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "content": "Menuntun user ke berbagai halaman website disebut navigasi Untuk membuat menu navigasi, kita akan beriteraksi dengan list",
+          "image": "./assets/section-5-navlink.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Baiklah! Ayo kita teruskan",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ""
+            },
+            {
+              "index": 2,
+              "text": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "content": "1. Harry \n 2. Hermione \n 3. Ron \n List sangat baik untuk mengelola informasi dan merupakan elemen yang paling sering digunakan pada HTML. Sebelum menggunakan List, mari memulai dari dasar",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke! Kita mulai",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ""
+            },
+            {
+              "index": 2,
+              "text": ""
+            }
+          ],
+          "answer": ""
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "content": "Tag List terdiri dari beberapa tipe yang berbeda. Mari mulai dengan Ordered List",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__",
+            "__",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Bagus Sekali! Kita telah membuat ordered list, tanpa kontent tentunya",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "/ol"
+            },
+            {
+              "index": 2,
+              "text": "ol"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "content": "Kita baru saja menggunakan <ol> untuk membuat list, namun masih kosong. Untuk membuat list item, kita bisa menggunakan tag <li>",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "______",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol> <li>Harry</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Kerja bagus!",
+          "question": "Tanda __ dapat diganti dengan urutan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<li>"
+            },
+            {
+              "index": 2,
+              "text": "</li>"
+            },
+            {
+              "index": 4,
+              "text": "Harry"
+            }
+          ],
+          "answer": "132"
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "content": "Bisakah kamu membuat ordered list dari awal?",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__",
+            "__Harry__",
+            "__Hermione__",
+            "__Ron__",
+            "__",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Kerja bagus! Kita telah membuka dan menutup semua tag.",
+          "question": "Tanda _ dapat diisi dengan urutan",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</li>"
+            },
+            {
+              "index": 2,
+              "text": "</ol>"
+            },
+            {
+              "index": 3,
+              "text": "<li>"
+            },
+            {
+              "index": 4,
+              "text": "<li>"
+            },
+            {
+              "index": 5,
+              "text": "</li>"
+            },
+            {
+              "index": 6,
+              "text": "<ol>"
+            },
+            {
+              "index": 7,
+              "text": "</li>"
+            },
+            {
+              "index": 8,
+              "text": "<li>"
+            }
+          ],
+          "answer": "6314872"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Huruf atau angka sebelum list item disebut dengan penanda (markers). Kita juga bisa menggunakan huruf ketimbang angka",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Oke lanjut",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 8,
+          "type": 1,
+          "content": "Untuk menentukan tipe penanda list, kita bisa menambahkan atribut type. Untuk penanda hurup kapital, nilai yang kita butuhkan ialah 'A'",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<ol__",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ol>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol type='A'> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Lihat! Kita membuat list dengan urutan hufur kapital",
+          "question": "Tanda __ dapat diganti dengan urutan?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "'A'"
+            },
+            {
+              "index": 3,
+              "text": "type"
+            }
+          ],
+          "answer": "312"
+        },
+        {
+          "index": 9,
+          "type": 2,
+          "content": "Jika kita ingin angka romawi sebagai penanda. kita bisa menggunakan huruf 'I' sebagai penanda. Seperti sebelumnya, gunakan atribut 'type'",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<ol__",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ol>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol type='I'> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Mantap! Kita telah mengetahui atribut untuk list.",
+          "question": "Tanda __ dapat diganti dengan urutan?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "I"
+            },
+            {
+              "index": 2,
+              "text": "'"
+            },
+            {
+              "index": 3,
+              "text": "="
+            },
+            {
+              "index": 4,
+              "text": "type"
+            },
+            {
+              "index": 5,
+              "text": "'"
+            }
+          ],
+          "answer": "43512"
+        },
+        {
+          "index": 10,
+          "type": 2,
+          "content": "Jika kita ingin mengurutkan secera menurun (descending), kita hanya perlu menambhakan atribut reserved pada tag <ol>",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<ol type='I' __",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ul>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol type='I' reversed> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Wow! Sangat mudah bukan?",
+          "question": "Urutkan jawaban dengan benar : ",
+          "choice": [
+            {
+              "index": 1,
+              "text": "r"
+            },
+            {
+              "index": 2,
+              "text": "r"
+            },
+            {
+              "index": 3,
+              "text": "s"
+            },
+            {
+              "index": 4,
+              "text": "e"
+            },
+            {
+              "index": 5,
+              "text": "v"
+            },
+            {
+              "index": 6,
+              "text": "d"
+            },
+            {
+              "index": 7,
+              "text": "e"
+            },
+            {
+              "index": 8,
+              "text": "e"
+            }
+          ],
+          "answer": "28571346"
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "content": "Unordered list mungkin terdengar agak sedikit semrawut. Namun justru lebih sederhana, untuk membuatnya cukup dengan tag <ul>",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__",
+            "<li>Harry</li>",
+            "<li>Hermione</li>",
+            "<li>Ron</li>",
+            "</ul>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ul> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ul> </body> </html>"
+            }
+          ],
+          "note": "Sempurna! Kita bisa menggunakanya ketika tidak membutuhkan urutan yang spesifik",
+          "question": "Coba urutkan dengan benar : ",
+          "choice": [
+            {
+              "index": 1,
+              "text": ">"
+            },
+            {
+              "index": 2,
+              "text": "ul"
+            },
+            {
+              "index": 3,
+              "text": "/"
+            },
+            {
+              "index": 4,
+              "text": "<"
+            }
+          ],
+          "answer": "4321"
+        },
+        {
+          "index": 12,
+          "type": 2,
+          "content": "Sama seperti orderd lists, kita juga menggunakan <li> untuk menambah list item.",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "<ul>",
+            "__Harry__",
+            "__Hermione__",
+            "__Ron__",
+            "</ul>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ul> <li>Harry</li> <li>Hermione</li> <li>Hermione</li> <li>Ron</li> </ul> </body> </html>"
+            }
+          ],
+          "note": "Kau mengurutknaya seperti seorang profesional!",
+          "question": "Coba urutkan dengan benar",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</li>"
+            },
+            {
+              "index": 2,
+              "text": "</li>"
+            },
+            {
+              "index": 3,
+              "text": "<li>"
+            },
+            {
+              "index": 4,
+              "text": "<li>"
+            },
+            {
+              "index": 5,
+              "text": "</li>"
+            },
+            {
+              "index": 6,
+              "text": "<li>"
+            }
+          ],
+          "answer": "653142"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "content": "Kita bisa mengkombinasikan antara odered dan unordered list",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "__",
+            "<li>My personal list of the best comic book movies:",
+            "__",
+            "<li>The Dart Knight</li>",
+            "<li>Spiderman - Far From Home</li>",
+            "<li>Avengers - Endgame</li>",
+            "__",
+            "</li>",
+            "<li>My personal list of the worst comic book movies:",
+            "<ol reversed>",
+            "<li>Howard The Duck</li>",
+            "<li>Superman IV</li>",
+            "<li>Batman & Robin</li>",
+            "</ol>",
+            "</li>",
+            "__",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ul> <li>My personal list of the best comic book movies: <ol> <li>The Dart Knight</li> <li>Spiderman - Far From Home</li> <li>Avengers - Endgame</li> </ol> </li> <li>My personal list of the worst comic book movies: <ol reversed> <li>Howard The Duck</li> <li>Superman IV</li> <li>Batman & Robin</li> </ol> </li> </ul></body> </html> "
+            }
+          ],
+          "note": "Keren! Kita menambahkan reversed pada unorderd list dalam kombinasi tersebut",
+          "question": "Coba urutkan dengan benar  ",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</ol>"
+            },
+            {
+              "index": 2,
+              "text": "</ul>"
+            },
+            {
+              "index": 3,
+              "text": "<ul>"
+            },
+            {
+              "index": 4,
+              "text": "<ol>"
+            }
+          ],
+          "answer": "35241"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "content": "Sekarang mari kita masukan tag <a> auntuk menambah link",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "My personal list of the best comic book movies:",
+            "<ol>",
+            "<li>__ __The Dart Knight__</li>",
+            "<li>Spiderman - Far From Home</li>",
+            "<li>Avengers - Endgame</li>",
+            "</ol>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ol> <li><a href='https://en.wikipedia.org/wiki/The_Dark_Knight_(film)'>The Dart Knight</a></li> <li>Spiderman - Far From Home</li> <li>Avengers - Endgame</li> </ol> </body> </html>"
+            }
+          ],
+          "note": "Mantap! kita bisa menambahkan link kesetian item jika mau",
+          "question": "Coba urutkan dengan benar",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</li>"
+            },
+            {
+              "index": 2,
+              "text": "</li>"
+            },
+            {
+              "index": 3,
+              "text": "<li>"
+            },
+            {
+              "index": 4,
+              "text": "<li>"
+            },
+            {
+              "index": 5,
+              "text": "</li>"
+            },
+            {
+              "index": 6,
+              "text": "<li>"
+            }
+          ],
+          "answer": "653142"
+        },
+        {
+          "index": 15,
+          "type": 0,
+          "content": "Dengan itu kita bisa membuat navigasi dengan HTML",
+          "code": [
+            "<!doctype html>",
+            "<html>",
+            "<body>",
+            "My personal list of the best comic book movies:",
+            "<ul>",
+            "__",
+            "<li><a href='about.html'>About</a></li>",
+            "<li><a href='contact.html'>Contact</a></li>",
+            "</ul>",
+            "</body>",
+            "</html>"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": "<!doctype html> <html> <body> <ul> <li><a href='home.html'>Home</a></li> <li><a href='about.html'>About</a></li> <li><a href='contact.html'>Contact</a></li> </ul> </body> </html>"
+            }
+          ],
+          "note": "Bagus! Inilah bagaimana kebanyakan webiste membuat navigasinya.",
+          "question": "Coba urutkan dengan benar",
+          "choice": [
+            {
+              "index": 1,
+              "text": "</li>"
+            },
+            {
+              "index": 2,
+              "text": "<a href='index.html'>"
+            },
+            {
+              "index": 3,
+              "text": "<li>"
+            },
+            {
+              "index": 4,
+              "text": "</a>"
+            },
+            {
+              "index": 5,
+              "text": "Home"
+            }
+          ],
+          "answer": "32541"
+        }
+      ]
     }
   ]
 }
