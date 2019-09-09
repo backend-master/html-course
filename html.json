@@ -1453,7 +1453,7 @@
           "type": 1,
           "content": "Sekarang kita butuh menyediakan alamat tujuan, atau dapat dikenal dengan Uniform Resource Locator (URL)",
           "image": "",
-          "code": ["<!doctype html>", "<html>", "<body>", "<a href=\"_\">Alamat tujuan</a>", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "<a href=\"__\">Alamat tujuan</a>", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1479,7 +1479,7 @@
           "type": 0,
           "image": "",
           "content": "Bisakah kamu membuat atribut href dari awal?",
-          "code": ["<!doctype html>", "<html>", "<body>", "<a _ _ _>Alamat tujuan</a>", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "<a __ __ __>Alamat tujuan</a>", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1517,7 +1517,7 @@
             "<!doctype html>",
             "<html>",
             "<body>",
-            "_ _ =\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\"_ _ _",
+            "__ __ =\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\"__ __ __",
             "</body>",
             "</html>"
           ],
@@ -1562,7 +1562,7 @@
           "type": 1,
           "image": "",
           "content": "Kita juga dapat meurjuk pada file lokal. Link hanya bekerja ketika kita kita memiliki index.html pada satu folder yang sama.",
-          "code": ["<!doctype html>", "<html>", "<body>", "<a href=_>Alamt kemana saja</a>", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "<a href=__>Alamt kemana saja</a>", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1588,7 +1588,7 @@
           "type": 0,
           "image": "",
           "content": "Jika kita ingin menambahkan gambar pada website kita, kita memiliki tag untuk itu.",
-          "code": ["<!doctype html>", "<html>", "<body>", "_", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "__", "</body>", "</html>"],
           "output": [
             {
               "type": ""
@@ -1613,7 +1613,7 @@
           "type": 1,
           "image": "",
           "content": "Seperti pada <br>, <img> adalah tag kosong, yang berarti tidak memilki tag penutup",
-          "code": ["<!doctype html>", "<html>", "<body>", "_", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "__", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1643,7 +1643,7 @@
           "type": 0,
           "image": "",
           "content": "Karena <img> adalah tag kosong, kita butuh menggunakan attribute untuk mengarahkan pada gambar dengan kata src yang berarti source.",
-          "code": ["<!doctype html>", "<html>", "<body>", "<img _=\"\">", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "<img __=\"\">", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1677,7 +1677,7 @@
           "type": 0,
           "image": "",
           "content": "Kita dapat menggunakan gambar lokal, yang berati kita dapat merujuk pada file gambar yang ada pada satu folder dengan halaman website.",
-          "code": ["<!doctype html>", "<html>", "<body>", "<img src=_>", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "<img src=__>", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1711,7 +1711,7 @@
           "type": 0,
           "image": "",
           "content": "Kita juga dapat menggunakan URL untuk merujuk pada gambar.",
-          "code": ["<!doctype html>", "<html>", "<body>", "<img _>", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "<img __ __ __>", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1749,7 +1749,7 @@
             "<!doctype html>",
             "<html>",
             "<body>",
-            "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" _=\"100\">",
+            "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" __=\"100\">",
             "</body>",
             "</html>"
           ],
@@ -1798,7 +1798,7 @@
             "<!doctype html>",
             "<html>",
             "<body>",
-            "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widht=\"100\" _>",
+            "<img src=\"https://car-images.bauersecure.com/pagefiles/89891/450x300/f8_tributo_050.jpg?quality=5\" widht=\"100\" __ __ __>",
             "</body>",
             "</html>"
           ],
@@ -1847,7 +1847,7 @@
           "type": 0,
           "image": "",
           "content": "Kita dapat menggunakan tag <iframe>",
-          "code": ["<!doctype html>", "<html>", "<body>", "<h1>Website saya</h1>", "_", "</body>", "</html>"],
+          "code": ["<!doctype html>", "<html>", "<body>", "<h1>Website saya</h1>", "__ __", "</body>", "</html>"],
           "output": [
             {
               "type": "script.js",
@@ -1873,7 +1873,7 @@
           "note": "Kita dapat menggunakan <iframe> untuk menambahkan halaman web atau sesuatu dari suatu halaman web."
         },
         {
-          "index": 21,
+          "index": 2,
           "type": 0,
           "image": "",
           "content": "Contoh yang baik untuk memasukan video dalam halaman web adalah menggunakan youtube dan cara yang mudah untuk melakukannya adalah dengan iframe",
@@ -1882,7 +1882,7 @@
             "<html>",
             "<body>",
             "<h1>Website saya</h1>",
-            "<iframe _></iframe>",
+            "<iframe __ __ __></iframe>",
             "</body>",
             "</html>"
           ],
