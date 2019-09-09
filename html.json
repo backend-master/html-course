@@ -14,7 +14,7 @@
           "index": 1,
           "type": 0,
           "content": "Diluar sana lebih dari Miliaran Website yang ada pada internet. Mulai dari yang berlayanan besar seperti facebook sampai dengan website yang simple seperti blog, komunitas dan forum untuk berdiskusi.",
-          "image": "./assets/section-1-website.png",
+          "image": "section-1-website.png",
           "code": [],
           "output": [
             {
@@ -422,7 +422,7 @@
           "index": 1,
           "type": 0,
           "content": "Tag adalah blok untuk membangunan situs web dan ada banyak yang bisa kita telusuri.Oke mari kita periksa",
-          "image": "./assets/section-2-tag.png",
+          "image": "section-2-tag.png",
           "code": [],
           "output": [
             {
@@ -1051,7 +1051,7 @@
           "index": 17,
           "type": 0,
           "content": "Tag <head> digunakan untuk menambahkan informasi khusus seperti title website maupun style.",
-          "image": "./assets/section-2-head.png",
+          "image": "section-2-head.png",
           "code": [],
           "output": [
             {
@@ -1265,7 +1265,7 @@
           "index": 1,
           "type": 0,
           "content": "Untuk lebih jelas lagi, file yang ditulis dengan HTML adalah webpages. Ketika file file tersebut bergabung menjadi satu maka itu disebut dengan website",
-          "image": "./assets/section-3-file.png",
+          "image": "section-3-file.png",
           "code": [],
           "output": [
             {
@@ -1286,7 +1286,7 @@
           "index": 2,
           "type": 0,
           "content": "Dan itu adalah link atau hyperlinks. Mereka yang menggabungkan webpage dan menghubungkannya menjadi website",
-          "image": "./assets/section-3-chain.png",
+          "image": "section-3-chain.png",
           "code": [],
           "output": [
             {
@@ -1307,7 +1307,7 @@
           "index": 3,
           "type": 0,
           "content": "Jadi, ketimbang harus mengetik halaman web atau alamat situs web ke dalam browser web, link dapat membawa kamu ke sana dengan satu klik sederhana",
-          "image": "./assets/section-3-webpage.png",
+          "image": "section-3-webpage.png",
           "code": [],
           "output": [
             {
@@ -1924,7 +1924,7 @@
         {
           "index": 1,
           "type": 0,
-          "image": "./assets/70-702066_bleistift-lineal-symbol-pencil-and-ruler-clipart.png",
+          "image": "70-702066_bleistift-lineal-symbol-pencil-and-ruler-clipart.png",
           "content": "Waktunya untuk membuat semua lebih indah. Dalam bab ini, kita akan menambahkan CSS kedalam beberapa tag untuk mengubah bagaimana semuanya terlihat.",
           "code": [],
           "output": [],
@@ -2473,7 +2473,7 @@
           "index": 1,
           "type": 0,
           "content": "Link sangat bagus untuk menhubungkan website satu sama lain, juga bagus untuk menghubungkan halaman web satu dengan yang lain",
-          "image": "./assets/section-5-link.png",
+          "image": "section-5-link.png",
           "code": [],
           "output": [
             {
@@ -2503,7 +2503,7 @@
           "index": 2,
           "type": 0,
           "content": "Menuntun user ke berbagai halaman website disebut navigasi Untuk membuat menu navigasi, kita akan beriteraksi dengan list",
-          "image": "./assets/section-5-navlink.png",
+          "image": "section-5-navlink.png",
           "code": [],
           "output": [
             {
