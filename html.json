@@ -14,7 +14,7 @@
           "index": 1,
           "type": 0,
           "content": "Link sangat bagus untuk menhubungkan website satu sama lain, juga bagus untuk menghubungkan halaman web satu dengan yang lain",
-          "image": "./assets/section-5-link.png",
+          "image": "section-5-link.png",
           "code": [],
           "output": [
             {
@@ -28,23 +28,14 @@
           ],
           "note": "Bagus! Mari lanjutkan",
           "question": "",
-          "choice": [
-            {
-              "index": 1,
-              "text": ""
-            },
-            {
-              "index": 2,
-              "text": ""
-            }
-          ],
+          "choice": [],
           "answer": ""
         },
         {
           "index": 2,
           "type": 0,
           "content": "Menuntun user ke berbagai halaman website disebut navigasi Untuk membuat menu navigasi, kita akan beriteraksi dengan list",
-          "image": "./assets/section-5-navlink.png",
+          "image": "section-5-navlink.png",
           "code": [],
           "output": [
             {
@@ -58,16 +49,7 @@
           ],
           "note": "Baiklah! Ayo kita teruskan",
           "question": "",
-          "choice": [
-            {
-              "index": 1,
-              "text": ""
-            },
-            {
-              "index": 2,
-              "text": ""
-            }
-          ],
+          "choice": [],
           "answer": ""
         },
         {
@@ -87,16 +69,7 @@
           ],
           "note": "Oke! Kita mulai",
           "question": "",
-          "choice": [
-            {
-              "index": 1,
-              "text": ""
-            },
-            {
-              "index": 2,
-              "text": ""
-            }
-          ],
+          "choice": [],
           "answer": ""
         },
         {
@@ -107,8 +80,8 @@
             "<!doctype html>",
             "<html>",
             "<body>",
-            "__",
-            "__",
+            "<__>",
+            "<__>",
             "</body>",
             "</html>"
           ],
@@ -119,7 +92,7 @@
             },
             {
               "type": "browser",
-              "text": ""
+              "text": "<!doctype html> <html> <body> <ol> </ol> </body> </html>"
             }
           ],
           "note": "Bagus Sekali! Kita telah membuat ordered list, tanpa kontent tentunya",
@@ -144,7 +117,7 @@
             "<!doctype html>",
             "<html>",
             "<body>",
-            "______",
+            "__ __ __",
             "</body>",
             "</html>"
           ],
@@ -170,7 +143,7 @@
               "text": "</li>"
             },
             {
-              "index": 4,
+              "index": 3,
               "text": "Harry"
             }
           ],
@@ -238,7 +211,7 @@
               "text": "<li>"
             }
           ],
-          "answer": "6314872"
+          "answer": "63145872"
         },
         {
           "index": 7,
@@ -287,32 +260,28 @@
             }
           ],
           "note": "Lihat! Kita membuat list dengan urutan hufur kapital",
-          "question": "Tanda __ dapat diganti dengan urutan?",
+          "question": "Tanda __ dapat diganti dengan?",
           "choice": [
             {
               "index": 1,
-              "text": "="
+              "text": "type='I'"
             },
             {
               "index": 2,
-              "text": "'A'"
-            },
-            {
-              "index": 3,
-              "text": "type"
+              "text": "type='A'"
             }
           ],
-          "answer": "312"
+          "answer": "2"
         },
         {
           "index": 9,
-          "type": 2,
+          "type": 0,
           "content": "Jika kita ingin angka romawi sebagai penanda. kita bisa menggunakan huruf 'I' sebagai penanda. Seperti sebelumnya, gunakan atribut 'type'",
           "code": [
             "<!doctype html>",
             "<html>",
             "<body>",
-            "<ol__",
+            "<ol__ __ __",
             "<li>Harry</li>",
             "<li>Hermione</li>",
             "<li>Ron</li>",
@@ -335,30 +304,22 @@
           "choice": [
             {
               "index": 1,
-              "text": "I"
+              "text": "'I'"
             },
             {
               "index": 2,
-              "text": "'"
+              "text": "type"
             },
             {
               "index": 3,
               "text": "="
-            },
-            {
-              "index": 4,
-              "text": "type"
-            },
-            {
-              "index": 5,
-              "text": "'"
             }
           ],
-          "answer": "43512"
+          "answer": "231"
         },
         {
           "index": 10,
-          "type": 2,
+          "type": 1,
           "content": "Jika kita ingin mengurutkan secera menurun (descending), kita hanya perlu menambhakan atribut reserved pada tag <ol>",
           "code": [
             "<!doctype html>",
@@ -387,38 +348,14 @@
           "choice": [
             {
               "index": 1,
-              "text": "r"
+              "text": "reserved"
             },
             {
               "index": 2,
-              "text": "r"
-            },
-            {
-              "index": 3,
-              "text": "s"
-            },
-            {
-              "index": 4,
-              "text": "e"
-            },
-            {
-              "index": 5,
-              "text": "v"
-            },
-            {
-              "index": 6,
-              "text": "d"
-            },
-            {
-              "index": 7,
-              "text": "e"
-            },
-            {
-              "index": 8,
-              "text": "e"
+              "text": "reversed"
             }
           ],
-          "answer": "28571346"
+          "answer": "2"
         },
         {
           "index": 11,
@@ -428,7 +365,7 @@
             "<!doctype html>",
             "<html>",
             "<body>",
-            "__",
+            "__ __ __",
             "<li>Harry</li>",
             "<li>Hermione</li>",
             "<li>Ron</li>",
@@ -459,18 +396,14 @@
             },
             {
               "index": 3,
-              "text": "/"
-            },
-            {
-              "index": 4,
               "text": "<"
             }
           ],
-          "answer": "4321"
+          "answer": "321"
         },
         {
           "index": 12,
-          "type": 2,
+          "type": 0,
           "content": "Sama seperti orderd lists, kita juga menggunakan <li> untuk menambah list item.",
           "code": [
             "<!doctype html>",
@@ -615,30 +548,18 @@
           "choice": [
             {
               "index": 1,
-              "text": "</li>"
+              "text": "'https://en.wikipedia.org/wiki/The_Dark_Knight_(film)'>"
             },
             {
               "index": 2,
-              "text": "</li>"
+              "text": "<a href="
             },
             {
               "index": 3,
-              "text": "<li>"
-            },
-            {
-              "index": 4,
-              "text": "<li>"
-            },
-            {
-              "index": 5,
-              "text": "</li>"
-            },
-            {
-              "index": 6,
-              "text": "<li>"
+              "text": "</a>"
             }
           ],
-          "answer": "653142"
+          "answer": "213"
         },
         {
           "index": 15,
@@ -650,7 +571,7 @@
             "<body>",
             "My personal list of the best comic book movies:",
             "<ul>",
-            "__",
+            "__ __ __",
             "<li><a href='about.html'>About</a></li>",
             "<li><a href='contact.html'>Contact</a></li>",
             "</ul>",
@@ -664,7 +585,7 @@
             },
             {
               "type": "browser",
-              "text": "<!doctype html> <html> <body> <ul> <li><a href='home.html'>Home</a></li> <li><a href='about.html'>About</a></li> <li><a href='contact.html'>Contact</a></li> </ul> </body> </html>"
+              "text": "<!doctype html> <html> <body> <ul> <li><a href='index.html'>Home</a></li> <li><a href='about.html'>About</a></li> <li><a href='contact.html'>Contact</a></li> </ul> </body> </html>"
             }
           ],
           "note": "Bagus! Inilah bagaimana kebanyakan webiste membuat navigasinya.",
@@ -672,26 +593,18 @@
           "choice": [
             {
               "index": 1,
-              "text": "</li>"
+              "text": "</a></li>"
             },
             {
               "index": 2,
-              "text": "<a href='index.html'>"
+              "text": "<li><a href='index.html'>"
             },
             {
               "index": 3,
-              "text": "<li>"
-            },
-            {
-              "index": 4,
-              "text": "</a>"
-            },
-            {
-              "index": 5,
               "text": "Home"
             }
           ],
-          "answer": "32541"
+          "answer": "231"
         }
       ]
     }
